@@ -22,7 +22,7 @@ html {
     top: 0;
     z-index: -1;
 }
-  
+
 .bg2 {
     animation-direction: alternate-reverse;
     animation-duration: 4s;
@@ -46,6 +46,21 @@ header {
     height: 150px;
 }
 
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h5 {
+    font-style: italic;
+}
+
+h1, h5 {
+font-weight: bold;
+}
+
 /* NAVIGATION BAR */
 .navbar-nav .nav-item .nav-link {
     color:black;
@@ -62,12 +77,21 @@ header {
 }
 
 /* MAIN */
-main, .profile, .skills, .curses, .contacts  {
+main, #profile, #skills, #curses, #contact {
     display: flex;
     justify-content: center;
 }
 
+.card-body, .card-header {
+    text-align: center;
+}
+
 /* SKILLS */
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+
 .accordion-body i {
     font-size: 40px;
 }
@@ -106,24 +130,23 @@ main, .profile, .skills, .curses, .contacts  {
 }
 
 /* CURSES */
+h5 {
+    color: rgba(255, 166, 0, 0.750);
+}
+
+article a {
+    font-weight: bold;
+    color: black;
+}
+
+/* CONTACT */
 .github, .linkedin{
     color: black;
     text-decoration: none;
 }
 
-/* CONTACT */
 .poi {
     height: 250px;
-}
-
-@media screen and (max-width: 992px) {
-    .profile-picture {
-        width: 75px;
-        height: 75px;
-    }
-    .poi {
-        height: 180px;
-    }
 }
 
 /* FOOTER */
@@ -134,4 +157,14 @@ main, .profile, .skills, .curses, .contacts  {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .profile-picture {
+        width: 75px;
+        height: 75px;
+    }
+    .poi {
+        height: 180px;
+    }
 }
