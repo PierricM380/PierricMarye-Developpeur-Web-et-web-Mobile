@@ -20,9 +20,9 @@
   <div class="bg bg3"></div>
   <!-- HEADER -->
   <header class="row shadow">
-    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-      <h1 class="h1 text-secondary fw-bold fst-italic"><strong>Pierric Marye</strong></h1>
-      <h2 class="h4 text-secondary fst-italic"><strong>Développeur Web & Mobile</strong></h2>
+    <div class="head col-12">
+      <h1 class="h1 text-secondary"><strong>Pierric Marye</strong></h1>
+      <h2 class="h4 text-secondary"><strong>Développeur Web & Mobile</strong></h2>
     </div>
   </header>
   <!-- NAVIGATION BAR -->
@@ -48,12 +48,12 @@
   <!-- MAIN -->
   <main class="row mx-3">
     <!-- CARD PROFILE -->
-    <section class="profile row" id="profile">
+    <section class="row" id="profile">
       <div class="col-xl-8 card mt-3 mb-3 g-0 bg-light shadow">
-        <div class="card-header text-center">
+        <div class="card-header">
           <h2 class="card-title">A propos de moi</h2>
         </div>
-        <div class="card-body  text-center">
+        <div class="card-body">
           <p class="card-text">
             Après une formation auprès de l'organisme <a href="https://www.studi.fr" target="_blank">studi</a> de
             développeur web et web mobile, j'ai pu obtenir mon diplôme et je mets désormais mes compétences à votre
@@ -70,9 +70,9 @@
       </div>
     </section>
     <!-- SKILLS -->
-    <section class="skills row" id="skills">
+    <section class="row" id="skills">
       <div class="col-xl-8 card mt-3 mb-3 g-0 bg-light shadow">
-        <div class="card-header text-center">
+        <div class="card-header">
           <h2>Mes compétences</h2>
         </div>
         <div class="accordion" id="accordionExample">
@@ -87,25 +87,25 @@
               data-bs-parent="#accordionExample">
               <div class="accordion-body ">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="html fab fa-html5 me-2"></i>HTML5
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="css fab fa-css3-alt me-2"></i>CSS3
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="bootstrap fab fa-bootstrap me-2"></i>Bootstrap
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="java fab fa-js-square me-2"></i>JavaScript
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="fab fa-github me-2"></i>Github
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="wordpress fab fa-wordpress me-2"></i>Wordpress
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="react fab fa-react me-2"></i>React.js
                   </li>
                 </ul>
@@ -123,17 +123,17 @@
               data-bs-parent="#accordionExample">
               <div class="accordion-body ">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="php fab fa-php me-2"></i>PHP
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="fab fa-symfony me-2"></i>Symfony
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="bdata fas fa-database me-2"></i>Base
                     de donées
                   </li>
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="list-group-item">
                     <i class="react fab fa-react me-2"></i> React
                     Native
                   </li>
@@ -153,14 +153,14 @@
             data-bs-parent="#accordionExample">
             <div class="accordion-body ">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex align-items-center">
+                <li class="list-group-item">
                   <i class="swift1 fab fa-swift me-2"></i>Langage
                   Swift
                 </li>
-                <li class="list-group-item d-flex align-items-center">
+                <li class="list-group-item">
                   <i class=" swift2 fab fa-swift me-2"></i>SwiftUI
                 </li>
-                <li class="list-group-item d-flex align-items-center">
+                <li class="list-group-item">
                   <i class=" swift3 fab fa-swift me-2"></i>UIKit
                 </li>
               </ul>
@@ -170,9 +170,9 @@
       </div>
     </section>
     <!-- CURSES -->
-    <section class="curses row" id="curses">
+    <section class="row" id="curses">
       <div class="col-xl-8 card mt-3 mb-3 bg-light shadow g-0">
-        <div class="card-header text-center">
+        <div class="card-header">
           <h2>Mon parcours</h2>
         </div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -185,66 +185,83 @@
               role="tab" aria-controls="formations" aria-selected="false">Formations</button>
           </li>
         </ul>
-        <div class="tab-content  mt-3 p-3" id="myTabContent">
+        <div class="tab-content mt-3 p-3" id="myTabContent">
           <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
             <!-- le contenu expériences -->
             <article>
-              <h5 class="fw-bold fst-italic text-warning">2017 - 2021</h5>
-              <p><a class="text-dark fw-bold" href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
-                Agent de location et préparateur de véhicules.</p>
+              <h5>2017 - 2021</h5>
+              <p>
+                <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
+                Agent de location et préparateur de véhicules.
+              </p>
             </article>
             <article>
-              <h5 class="fw-bold fst-italic text-warning">2011 - 2017</h5>
-              <p><a class="text-dark fw-bold" href="https://www.e.leclerc/mag/e-leclerc-espace-polygone"
-                  target="_blank">Centre commercial E.LECLERC Perpignan</a> - Employé commercial (vendeur multimedia,
-                service après-vente et agent de location véhicules).</p>
+              <h5>2011 - 2017</h5>
+              <p>
+                <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
+                  E.LECLERC Perpignan</a>
+                - Employé commercial (vendeur multimedia,
+                service après-vente et agent de location véhicules).
+              </p>
             </article>
             <article>
-              <h5 class="fw-bold fst-italic text-warning">2004 - 2011</h5>
-              <p><a class="text-dark fw-bold" href="https://www.canetenroussillon.fr">Divers emplois communaux,</a> <a
-                  class="text-dark fw-bold" href="https://www.reserveafricainesigean.fr"> environnementaux et</a> <a
-                  class="text-dark fw-bold" href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a> -
-                agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.</p>
+              <h5>2004 - 2011</h5>
+              <p>
+                <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
+                <a href="https://www.reserveafricainesigean.fr"> environnementaux et</a>
+                <a href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a>
+                -
+                agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.
+              </p>
             </article>
           </div>
           <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
             <!-- le contenu formations -->
             <article>
-              <h5 class="fw-bold fst-italic text-warning">Mai 2021 -</h5>
-              <p>Formation STUDI - <a class="text-dark fw-bold"
-                  href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
-                  target="_blank">Développeur Mobile iOS</a>, titre RNCP BAC+2.</p>
-            </article>
-            <article>
-              <h5 class="fw-bold fst-italic text-warning">2020</h5>
-              <p>Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.</p>
-            </article>
-            <article>
-              <h5 class="fw-bold fst-italic text-warning">2006 - 2010</h5>
-              <p>Formation bagage des oiseaux - <a class="text-dark fw-bold" href="https://crbpo.mnhn.fr"
-                  target="_blank">C.R.B.P.O</a>,
-                Muséum National d’Histoire Naturel.</p>
-            </article>
-            <article>
-              <h5 class="fw-bold fst-italic text-warning">2002 - 2004</h5>
-              <p>D.U.T. Gestion Logistique & Transport - <a class="text-dark fw-bold"
-                  href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">I.U.T. de
-                  Perpignan.</a>
+              <h5>2021 -</h5>
+              <p>
+                Formation STUDI -
+                <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
+                  target="_blank">Développeur Mobile iOS</a>
+                , titre RNCP BAC+2.
               </p>
             </article>
             <article>
-              <h5 class="fw-bold fst-italic text-warning">2002</h5>
-              <p>Baccalauréat Scientifique - <a class="text-dark fw-bold"
-                  href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a></p>
+              <h5>2020</h5>
+              <p>
+                Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
+              </p>
+            </article>
+            <article>
+              <h5>2006 - 2010</h5>
+              <p>
+                Formation bagage des oiseaux -
+                <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
+                , Muséum National d’Histoire Naturel.
+              </p>
+            </article>
+            <article>
+              <h5>2002 - 2004</h5>
+              <p>
+                D.U.T. Gestion Logistique & Transport -
+                <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
+                  I.U.T. de Perpignan.</a>
+              </p>
+            </article>
+            <article>
+              <h5>2002</h5>
+              <p>Baccalauréat Scientifique -
+                <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
+              </p>
             </article>
           </div>
         </div>
       </div>
     </section>
     <!-- CONTACT -->
-    <section class="contacts row" id="contact">
+    <section class="row" id="contact">
       <div class="col-xl-8 card g-0 mt-3 bg-light shadow">
-        <div class="card-header text-center">
+        <div class="card-header">
           <h2>Me contacter</h2>
         </div>
         <div class="body">
@@ -264,7 +281,7 @@
                   d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
               </svg>
               :
-              <a class="btn  btn-outline-primary" href="mailto:pierric.marye380@gmail.com" role="button">Cliquer
+              <a class="btn btn-outline-primary ms-1" href="mailto:pierric.marye380@gmail.com" role="button">Cliquer
                 ici pour me contacter</a>
             <li class="list-group-item">
               <a class="github me-1" href="https://github.com/PierricM380" target="_blank">
@@ -274,8 +291,7 @@
                     d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                 </svg>
               </a>
-              <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye"
-                target="_blank">
+              <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                   class="bi bi-linkedin" viewBox="0 0 16 16">
                   <path
