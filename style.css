@@ -83,8 +83,12 @@ main, #profile, #skills, #curses, #contact {
     justify-content: center;
 }
 
-.card-body, .card-header {
+.card-header {
     text-align: center;
+}
+
+.card-body {
+    text-align: justify;
 }
 
 /* SKILLS */
