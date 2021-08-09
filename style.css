@@ -7,7 +7,8 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 
-    'Helvetica Neue', serif;
+    'Helvetica Neue',
+    serif;
 }
 
 /* BACKGROUND ANIMATION */
@@ -43,7 +44,7 @@ html {
 
 /* HEADER */
 header {
-    height: 150px;
+    height: 200px;
 }
 
 .head {
@@ -53,13 +54,14 @@ header {
     align-items: center;
 }
 
-h1, h2, h5 {
-    font-style: italic;
-    color: rgb(35, 49, 66);
+header h1, header h2 {
+    font-family: limelight;
 }
 
-h1, h5 {
-font-weight: bold;
+h1, h2, h4 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(35, 49, 66);
 }
 
 /* NAVIGATION BAR */
@@ -89,6 +91,10 @@ main, #profile, #skills, #curses, #contact {
 
 .card-body {
     text-align: justify;
+}
+
+.btn {
+    background-color: rgb(250, 207, 90);
 }
 
 /* SKILLS */
@@ -135,7 +141,9 @@ main, #profile, #skills, #curses, #contact {
 }
 
 /* CURSES */
-h5 {
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
     color: rgba(255, 166, 0, 0.750);
 }
 
@@ -145,32 +153,42 @@ article a {
 }
 
 /* CONTACT */
-.github, .linkedin{
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.github, .linkedin {
+    font-size: 1.7rem;
     color: rgb(35, 49, 66);
     text-decoration: none;
 }
 
 .poi {
-    height: 250px;
+    width: 100%;
+    height: 225px;
+    box-shadow: -2px 0px 5px rgb(35, 49, 66);
 }
 
 /* FOOTER */
 footer > div {
-    height: 70px;
+    height: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-family: cursive;
-    font-weight: bold;
+    align-items: center;
+    font-family: limelight;
 }
 
 @media screen and (max-width: 992px) {
+    #profile > .card-body, #curses > .card-body {
+        text-align: center;
+    }
     .profile-picture {
         width: 75px;
         height: 75px;
     }
     .poi {
-        height: 180px;
+        box-shadow: 0px -2px 5px rgb(35, 49, 66);
     }
 }
