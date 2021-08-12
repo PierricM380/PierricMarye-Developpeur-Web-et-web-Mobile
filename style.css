@@ -54,11 +54,8 @@ header {
     align-items: center;
 }
 
-header h1, header h2 {
+h1, h2, h3 {
     font-family: limelight;
-}
-
-h1, h2, h4 {
     font-weight: bold;
     font-style: italic;
     color: rgb(35, 49, 66);
@@ -141,7 +138,7 @@ main, #profile, #skills, #curses, #contact {
 }
 
 /* CURSES */
-h4 {
+h5 {
     font-size: 1.1rem;
     font-weight: bold;
     color: rgba(255, 166, 0, 0.750);
