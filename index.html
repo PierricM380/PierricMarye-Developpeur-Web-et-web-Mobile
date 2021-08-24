@@ -20,19 +20,8 @@
 </head>
 
 <body class="container-fluid">
-  <!-- BACKGROUND ANIMATION -->
-  <div class="bg"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
-  <!-- HEADER -->
-  <header class="row shadow">
-    <section class="col-12">
-      <h1><strong>Pierric Marye</strong></h1>
-      <h2><strong>Développeur Web & Web Mobile</strong></h2>
-    </section>
-  </header>
   <!-- NAVIGATION BAR -->
-  <nav class="row navbar navbar-expand-lg navbar-light shadow">
+  <nav class="row navbar navbar-expand-lg navbar-dark">
     <div class="col-12 container-fluid">
       <!-- navbar-toggler at ligne breakpoint -->
       <img class="profile-picture img-fluid img-thumbnail rounded-circle mx-2"
@@ -51,253 +40,268 @@
       </div>
     </div>
   </nav>
-  <!-- MAIN -->
-  <main class="row mx-1 my-2">
-    <!-- CARD PROFILE -->
-    <section class="col-12 col-lg-9 col-xl-8 card g-0 my-2 bg-light shadow" id="profile">
-      <h3 class="card-header">A propos de moi</h3>
-      <div class="card-body">
-        <p class="card-text">
-          Après une formation auprès de l'organisme <a href="https://www.studi.fr" target="_blank">studi</a> de
-          développeur web et web mobile, j'ai pu obtenir mon diplôme et je mets désormais mes compétences à votre
-          service afin de réaliser vos projets.
-        </p>
-        <p class="card-text">
-          J'ai décidé de me reconvertir dans le développement informatique après des expériences dans le domaine de la
-          grande distribution et la location de véhicules.
-        </p>
-        <a href="ressources/datas/CV-global-Pierric.pdf" target="_blank" class="btn">Télécharger
-          mon
-          CV</a>
-      </div>
+  <!-- HEADER -->
+  <header class="row">
+    <section class="col-12">
+      <h1><strong>Pierric Marye</strong></h1>
+      <h2><strong>Développeur Web & Web Mobile</strong></h2>
     </section>
+  </header>
+  <!-- MAIN -->
+  <main class="row row-cols-1 row-cols-lg-2 g-3">
+    <!-- CARD PROFILE -->
+    <div class="col">
+      <section class="card h-100 g-0 bg-light shadow" id="profile">
+        <h3 class="card-header">A propos de moi</h3>
+        <div class="card-body">
+          <p class="card-text">
+            Après une formation auprès de l'organisme <a href="https://www.studi.fr" target="_blank">studi</a> de
+            développeur web et web mobile, j'ai pu obtenir mon diplôme et je mets désormais mes compétences à votre
+            service afin de réaliser vos projets.
+          </p>
+          <p class="card-text">
+            J'ai décidé de me reconvertir dans le développement informatique après des expériences dans le domaine de la
+            grande distribution et la location de véhicules.
+          </p>
+          <a href="ressources/datas/CV-global-Pierric.pdf" target="_blank" class="btn">Télécharger
+            mon
+            CV</a>
+        </div>
+      </section>
+    </div>
     <!-- CONTACT -->
-    <section class="col-12 col-lg-9 col-xl-8 card g-0 my-2 bg-light shadow" id="contact">
-      <h3 class="card-header">Me contacter</h3>
-      <div class="contact row row-cols-1 row-cols-lg-2">
-        <div class="col-lg-6">
-          <div class="card-body">
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item">
-                <i class="fas fa-phone-alt">: 06.11.31.45.11</i>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-paper-plane">:</i>
-                <a class="btn ms-1" href="mailto:pierric.marye380@gmail.com" role="button">Cliquer
-                  ici pour me contacter</a>
-              <li class="list-group-item">
-                <a class="github me-1" href="https://github.com/PierricM380" target="_blank"><i
-                    class="fab fa-github"></i></a>
-                <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-map-marker-alt">: 3 rue du Chardonnay, 66380 PIA</i>
-              </li>
-            </ul>
+    <div class="col">
+      <section class="card h-100 g-0 bg-light shadow" id="contact">
+        <h3 class="card-header">Me contacter</h3>
+        <div class="contact row row-cols-1 row-cols-lg-2">
+          <div class="col-lg-6">
+            <div class="card-body">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item">
+                  <i class="fas fa-phone-alt">: 06.11.31.45.11</i>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-paper-plane">:</i>
+                  <a class="btn ms-1" href="mailto:pierric.marye380@gmail.com" role="button">Cliquer
+                    ici pour me contacter</a>
+                <li class="list-group-item">
+                  <a class="github me-1" href="https://github.com/PierricM380" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" target="_blank"><i
+                      class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-map-marker-alt">: 3 rue du Chardonnay, 66380 PIA</i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="poi img-fluid" src="ressources/pictures/POI.png" alt="Carte google d'une adresse">
           </div>
         </div>
-        <div class="col-lg-6">
-          <img class="poi img-fluid" src="ressources/pictures/POI.png" alt="Carte google d'une adresse">
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- SKILLS -->
-    <section class="col-12 col-lg-9 col-xl-8 card g-0 my-2 bg-light shadow" id="skills">
-      <h3 class="card-header">Mes compétences</h3>
-      <div class="card-body">
-        <!-- Accordion 1 -->
-        <article class="accordion-item" id="accordionExample">
-          <div class="accordion-item">
-            <h4 class="accordion-header" id="headingOne">
-              <button class=" accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                Front-end
+    <div class="col">
+      <section class="card h-100 g-0 bg-light shadow" id="skills">
+        <h3 class="card-header">Mes compétences</h3>
+        <div class="card-body">
+          <!-- Accordion 1 -->
+          <article class="accordion-item" id="accordionExample">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOne">
+                <button class=" accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Front-end
+                </button>
+              </h4>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body ">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="html fab fa-html5 me-2"></i>html5
+                  </li>
+                  <li class="list-group-item">
+                    <i class="css fab fa-css3-alt me-2"></i>css3
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bootstrap fab fa-bootstrap me-2"></i>Bootstrap
+                  </li>
+                  <li class="list-group-item">
+                    <i class="java fab fa-js-square me-2"></i>JavaScript
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fab fa-github me-2"></i>Github
+                  </li>
+                  <li class="list-group-item">
+                    <i class="wordpress fab fa-wordpress me-2"></i>Wordpress
+                  </li>
+                  <li class="list-group-item">
+                    <i class="react fab fa-react me-2"></i>React.js
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <!-- Accordion 2 -->
+          <article class="accordion-item">
+            <h4 class="accordion-header" id="headingTwo">
+              <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Back-end
               </button>
             </h4>
-          </div>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body ">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <i class="html fab fa-html5 me-2"></i>html5
-                </li>
-                <li class="list-group-item">
-                  <i class="css fab fa-css3-alt me-2"></i>css3
-                </li>
-                <li class="list-group-item">
-                  <i class="bootstrap fab fa-bootstrap me-2"></i>Bootstrap
-                </li>
-                <li class="list-group-item">
-                  <i class="java fab fa-js-square me-2"></i>JavaScript
-                </li>
-                <li class="list-group-item">
-                  <i class="fab fa-github me-2"></i>Github
-                </li>
-                <li class="list-group-item">
-                  <i class="wordpress fab fa-wordpress me-2"></i>Wordpress
-                </li>
-                <li class="list-group-item">
-                  <i class="react fab fa-react me-2"></i>React.js
-                </li>
-              </ul>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body ">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="php fab fa-php me-2"></i>php
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fab fa-symfony me-2"></i>Symfony
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bdata fas fa-database me-2"></i>Base
+                    de donées
+                  </li>
+                  <li class="list-group-item">
+                    <i class="react fab fa-react me-2"></i> React
+                    Native
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </article>
-        <!-- Accordion 2 -->
-        <article class="accordion-item">
-          <h4 class="accordion-header" id="headingTwo">
-            <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Back-end
-            </button>
-          </h4>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body ">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <i class="php fab fa-php me-2"></i>php
-                </li>
-                <li class="list-group-item">
-                  <i class="fab fa-symfony me-2"></i>Symfony
-                </li>
-                <li class="list-group-item">
-                  <i class="bdata fas fa-database me-2"></i>Base
-                  de donées
-                </li>
-                <li class="list-group-item">
-                  <i class="react fab fa-react me-2"></i> React
-                  Native
-                </li>
-              </ul>
+          </article>
+          <!-- Accordion 3 -->
+          <article class="accordion-item">
+            <h4 class="accordion-header" id="headingThree">
+              <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Mobile iOS
+              </button>
+            </h4>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body ">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="swift1 fab fa-swift me-2"></i>Langage
+                    Swift
+                  </li>
+                  <li class="list-group-item">
+                    <i class=" swift2 fab fa-swift me-2"></i>SwiftUI
+                  </li>
+                  <li class="list-group-item">
+                    <i class=" swift3 fab fa-swift me-2"></i>UIKit
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </article>
-        <!-- Accordion 3 -->
-        <article class="accordion-item">
-          <h4 class="accordion-header" id="headingThree">
-            <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Mobile iOS
-            </button>
-          </h4>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body ">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <i class="swift1 fab fa-swift me-2"></i>Langage
-                  Swift
-                </li>
-                <li class="list-group-item">
-                  <i class=" swift2 fab fa-swift me-2"></i>SwiftUI
-                </li>
-                <li class="list-group-item">
-                  <i class=" swift3 fab fa-swift me-2"></i>UIKit
-                </li>
-              </ul>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+          </article>
+        </div>
+      </section>
+
+    </div>
     <!-- CURSES -->
-    <section class="col-12 col-lg-9 col-xl-8 card g-0 my-2 bg-light shadow" id="curses">
-      <h3 class="card-header">Mon parcours</h3>
-      <!-- Tab bar -->
-      <div class="card-body">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class=" nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
-              type="button" role="tab" aria-controls="experiences" aria-selected="true">Expériences</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class=" nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations" type="button"
-              role="tab" aria-controls="formations" aria-selected="false">Formations</button>
-          </li>
-        </ul>
-        <div class="tab-content mt-3 p-3" id="myTabContent">
-          <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
-            <!-- le contenu expériences -->
-            <article>
-              <h5>2017 - 2021</h5>
-              <p>
-                <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
-                Agent de location et préparateur de véhicules.
-              </p>
-            </article>
-            <article>
-              <h5>2011 - 2017</h5>
-              <p>
-                <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
-                  E.LECLERC Perpignan</a>
-                - Employé commercial (vendeur multimedia,
-                service après-vente et agent de location véhicules).
-              </p>
-            </article>
-            <article>
-              <h5>2004 - 2011</h5>
-              <p>
-                <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
-                <a href="https://www.reserveafricainesigean.fr"> environnementaux et</a>
-                <a href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a>
-                -
-                agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.
-              </p>
-            </article>
-          </div>
-          <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
-            <!-- le contenu formations -->
-            <article>
-              <h5>2021 -</h5>
-              <p>
-                Formation STUDI -
-                <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
-                  target="_blank">Développeur Mobile iOS</a>
-                , titre RNCP BAC+2.
-              </p>
-            </article>
-            <article>
-              <h5>2020</h5>
-              <p>
-                Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
-              </p>
-            </article>
-            <article>
-              <h5>2006 - 2010</h5>
-              <p>
-                Formation bagage des oiseaux -
-                <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
-                , Muséum National d’Histoire Naturel.
-              </p>
-            </article>
-            <article>
-              <h5>2002 - 2004</h5>
-              <p>
-                D.U.T. Gestion Logistique & Transport -
-                <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
-                  I.U.T. de Perpignan.</a>
-              </p>
-            </article>
-            <article>
-              <h5>2002</h5>
-              <p>Baccalauréat Scientifique -
-                <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
-              </p>
-            </article>
+    <div class="col">
+      <section class="card h-100 g-0 bg-light shadow" id="curses">
+        <h3 class="card-header">Mon parcours</h3>
+        <!-- Tab bar -->
+        <div class="card-body">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class=" nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
+                type="button" role="tab" aria-controls="experiences" aria-selected="true">Expériences</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class=" nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations" type="button"
+                role="tab" aria-controls="formations" aria-selected="false">Formations</button>
+            </li>
+          </ul>
+          <div class="tab-content mt-3 p-3" id="myTabContent">
+            <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
+              <!-- le contenu expériences -->
+              <article>
+                <h5>2017 - 2021</h5>
+                <p>
+                  <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
+                  Agent de location et préparateur de véhicules.
+                </p>
+              </article>
+              <article>
+                <h5>2011 - 2017</h5>
+                <p>
+                  <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
+                    E.LECLERC Perpignan</a>
+                  - Employé commercial (vendeur multimedia,
+                  service après-vente et agent de location véhicules).
+                </p>
+              </article>
+              <article>
+                <h5>2004 - 2011</h5>
+                <p>
+                  <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
+                  <a href="https://www.reserveafricainesigean.fr"> environnementaux et</a>
+                  <a href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a>
+                  -
+                  agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.
+                </p>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
+              <!-- le contenu formations -->
+              <article>
+                <h5>2021 -</h5>
+                <p>
+                  Formation STUDI -
+                  <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
+                    target="_blank">Développeur Mobile iOS</a>
+                  , titre RNCP BAC+2.
+                </p>
+              </article>
+              <article>
+                <h5>2020</h5>
+                <p>
+                  Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
+                </p>
+              </article>
+              <article>
+                <h5>2006 - 2010</h5>
+                <p>
+                  Formation bagage des oiseaux -
+                  <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
+                  , Muséum National d’Histoire Naturel.
+                </p>
+              </article>
+              <article>
+                <h5>2002 - 2004</h5>
+                <p>
+                  D.U.T. Gestion Logistique & Transport -
+                  <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
+                    I.U.T. de Perpignan.</a>
+                </p>
+              </article>
+              <article>
+                <h5>2002</h5>
+                <p>Baccalauréat Scientifique -
+                  <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
+                </p>
+              </article>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+    </div>
   </main>
   <!-- FOOTER -->
   <footer class="row">
     <div class="col-12">
-      <div>
-        <strong>Pierric Marye</strong>@2021
-      </div>
+      <div>Pierric Marye @2021</div>
       <div>
         <i class="far fa-copyright"> Copyright - Tout droits réservés</i>
       </div>
