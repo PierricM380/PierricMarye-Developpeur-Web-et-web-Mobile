@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-/* HTML */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -15,14 +14,13 @@ body {
     background: -moz-linear-gradient(rgb(241, 209, 138), rgb(247, 56, 89), rgb(241, 209, 138));
 }
 
-/* NAVIGATION BAR */
 nav {
     background-color: rgb(35, 41, 49);
     box-shadow: 0 0 10px rgb(35, 41, 49);
 }
 
 .navbar-nav .nav-item .nav-link {
-    color:rgb(241, 209, 138);
+    color:rgb(237, 237, 237);
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -34,7 +32,6 @@ nav {
     height: 100px;
 }
 
-/* HEADER */
 header {
     position: relative;
     top: 110px;
@@ -63,10 +60,13 @@ h1, h2, h3 {
     color: rgb(35, 41, 49);
 }
 
-/* MAIN */
 main {
     position: relative;
     top: 105px;
+}
+
+.card {
+    box-shadow: 0 0 10px rgb(35, 41, 49);
 }
 
 .card-header {
@@ -94,7 +94,6 @@ main {
     margin-right: 5px;
 }
 
-/* SKILLS */
 .list-group-item {
     display: flex;
     align-items: center;
@@ -103,6 +102,7 @@ main {
 .accordion-body i {
     font-size: 35px;
 }
+
 .html {
     color: coral;
 }
@@ -137,7 +137,6 @@ main {
     color: mediumblue;
 }
 
-/* CURSES */
 h5 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -147,12 +146,6 @@ h5 {
 article a {
     font-weight: bold;
     color: rgb(35, 41, 49);
-}
-
-/* CONTACT */
-.contact {
-    display: flex;
-    align-items: center;
 }
 
 .github, .linkedin {
@@ -167,7 +160,6 @@ article a {
     box-shadow: -2px 0px 5px rgb(35, 41, 49);
 }
 
-/* FOOTER */
 footer {
     position: relative;
     top: 120px;
@@ -182,7 +174,7 @@ footer {
 
 @media screen and (max-width: 992px) {
     header {
-        top: 95px;
+        top: 96px;
         height: 150px;
     }
     h1 {
