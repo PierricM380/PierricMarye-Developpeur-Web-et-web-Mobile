@@ -24,14 +24,14 @@
   <nav class="row navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="col-12 container-fluid">
       <!-- navbar-toggler at ligne breakpoint -->
-      <img class="profile-picture img-fluid img-thumbnail rounded-circle mx-2"
+      <img class="profile-picture img-fluid img-thumbnail rounded-circle mx-3"
         src="ressources/pictures/profilPicture.jpg" alt="Photo de profile">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
           <li class="nav-item"><a class="nav-link" href="#profile">Qui suis-je ?</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
           <li class="nav-item"><a class="nav-link" href="#curses">Parcours</a></li>
@@ -48,9 +48,9 @@
     </section>
   </header>
   <!-- MAIN -->
-  <main class="row row-cols-1 row-cols-lg-2 g-3">
+  <main class="row g-3">
     <!-- CARD PROFILE -->
-    <div class="col">
+    <div class="col-lg-9">
       <section class="card h-100 g-0 bg-light" id="profile">
         <h3 class="card-header">A propos de moi</h3>
         <div class="card-body">
@@ -71,7 +71,7 @@
       </section>
     </div>
     <!-- CONTACT -->
-    <div class="col">
+    <div class="col-lg-9">
       <section class="card h-100 g-0 bg-light" id="contact">
         <h3 class="card-header">Me contacter</h3>
         <div class="card-body">
@@ -98,7 +98,7 @@
     <!-- ACHIEVEMENTS -->
      
     <!-- SKILLS -->
-    <div class="col">
+    <div class="col-lg-9">
       <section class="card h-100 g-0 bg-light" id="skills">
         <h3 class="card-header">Mes compétences</h3>
         <div class="card-body">
@@ -201,18 +201,18 @@
       </section>
     </div>
     <!-- CURSES -->
-    <div class="col">
+    <div class="col-lg-9">
       <section class="card h-100 g-0 bg-light" id="curses">
         <h3 class="card-header">Mon parcours</h3>
         <!-- Tab bar -->
         <div class="card-body">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class=" nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
                 type="button" role="tab" aria-controls="experiences" aria-selected="true">Expériences</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class=" nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations" type="button"
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations" type="button"
                 role="tab" aria-controls="formations" aria-selected="false">Formations</button>
             </li>
           </ul>
@@ -289,7 +289,6 @@
           </div>
         </div>
       </section>
-
     </div>
   </main>
   <!-- FOOTER -->
