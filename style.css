@@ -8,10 +8,7 @@ body {
     'Open Sans', 
     'Helvetica Neue',
     serif;
-    background: linear-gradient(rgb(246, 245, 245), rgb(69, 146, 175), rgb(246, 245, 245));
-    background: -o-linear-gradient(rgb(246, 245, 245), rgb(69, 146, 175), rgb(246, 245, 245));
-    background: -webkit-linear-gradient(rgb(246, 245, 245), rgb(69, 146, 175), rgb(246, 245, 245));
-    background: -moz-linear-gradient(rgb(246, 245, 245), rgb(69, 146, 175), rgb(246, 245, 245));
+    background-color: rgb(69, 146, 175);
 }
 
 nav {
@@ -20,7 +17,7 @@ nav {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color:rgb(246, 245, 245);
+    color:rgb(227, 196, 168);
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -32,6 +29,15 @@ nav {
     height: 100px;
 }
 
+section .card-body button {
+    color: rgb(69, 146, 175);
+}
+
+section .card-body button:hover {
+    color: rgb(69, 146, 175);
+    font-weight: bold;
+}
+
 header {
     position: relative;
     top: 116px;
@@ -39,7 +45,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    background-image: url('ressources/pictures/HeaderBanner.jpg');
+    background-image: url('ressources/pictures/banner-904886_1920.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     box-shadow: 0 0 10px rgb(51, 49, 59);
@@ -47,26 +53,30 @@ header {
 
 h1 {
     font-size: 3rem;
+    color: rgb(51, 49, 59);
 }
 
 h2 {
     font-size: 2.1rem;
+    color: rgb(51, 49, 59);
 }
 
 h3 {
     font-size: 1.6rem;
+    color: rgb(246, 245, 245);
 }
 
 h1, h2, h3 {
     font-family: cursive;
     font-weight: bold;
     font-style: italic;
-    color: rgb(227, 196, 168);
 }
 
 main {
     position: relative;
     top: 135px;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -74,7 +84,6 @@ main {
 }
 
 .card-header {
-    color: rgb(227, 196, 168);
     background-color: rgb(51, 49, 59);
     text-align: center;
 }
@@ -83,6 +92,15 @@ main {
     text-align: justify;
     padding: 20px;
     background-color: rgb(246, 245, 245);
+}
+
+main .card-text a {
+    color: rgb(69, 146, 175);
+    text-decoration: none;
+}
+
+main .card-text a:hover {
+    font-weight: bold;
 }
 
 .btn {
@@ -152,9 +170,13 @@ article a {
     color: rgb(51, 49, 59);
 }
 
+article a:hover {
+    color: rgb(69, 146, 175);
+}
+
 .github, .linkedin {
     font-size: 1.7rem;
-    color: rgb(51, 49, 59);
+    color: rgb(69, 146, 175);
     text-decoration: none;
 }
 
@@ -173,7 +195,7 @@ footer {
     align-items: center;
     font-family: limelight;
     background-color: rgb(51, 49, 59);
-    color: rgb(237, 237, 237);
+    color: rgb(227, 196, 168);
 }
 
 @media screen and (max-width: 992px) {
