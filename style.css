@@ -8,15 +8,15 @@ body {
     'Open Sans', 
     'Helvetica Neue',
     serif;
-    background: linear-gradient(rgb(241, 209, 138), rgb(247, 56, 89), rgb(241, 209, 138));
-    background: -o-linear-gradient(rgb(241, 209, 138), rgb(247, 56, 89), rgb(241, 209, 138));
-    background: -webkit-linear-gradient(rgb(241, 209, 138), rgb(247, 56, 89), rgb(241, 209, 138));
-    background: -moz-linear-gradient(rgb(241, 209, 138), rgb(247, 56, 89), rgb(241, 209, 138));
+    background: linear-gradient(rgb(238, 238, 238), rgb(84, 140, 168), rgb(238, 238, 238));
+    background: -o-linear-gradient(rgb(238, 238, 238), rgb(84, 140, 168), rgb(238, 238, 238));
+    background: -webkit-linear-gradient(rgb(238, 238, 238), rgb(84, 140, 168), rgb(238, 238, 238));
+    background: -moz-linear-gradient(rgb(238, 238, 238), rgb(84, 140, 168), rgb(238, 238, 238));
 }
 
 nav {
-    background-color: rgb(35, 41, 49);
-    box-shadow: 0 0 10px rgb(35, 41, 49);
+    background-color: rgb(51, 66, 87);
+    box-shadow: 0 0 10px rgb(51, 66, 87);
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -34,11 +34,15 @@ nav {
 
 header {
     position: relative;
-    top: 110px;
-    height: 200px;
+    top: 116px;
+    height: 300px;
     display: flex;
     align-items: center;
     text-align: center;
+    background-image: url('ressources/pictures/HeaderBanner.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgb(51, 66, 87);
 }
 
 h1 {
@@ -57,12 +61,12 @@ h1, h2, h3 {
     font-family: limelight;
     font-weight: bold;
     font-style: italic;
-    color: rgb(35, 41, 49);
+    color: rgb(51, 66, 87);
 }
 
 main {
     position: relative;
-    top: 105px;
+    top: 135px;
 }
 
 .card {
@@ -71,14 +75,14 @@ main {
 
 .card-header {
     color: rgb(241, 209, 138);
-    background-color: rgb(35, 41, 49);
+    background-color: rgb(71, 96, 114);
     text-align: center;
 }
 
 .card-body {
     text-align: justify;
     padding: 20px;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(238, 238, 238);
 }
 
 .btn {
@@ -162,7 +166,7 @@ article a {
 
 footer {
     position: relative;
-    top: 120px;
+    top: 150px;
     height: 100px;
     display: flex;
     text-align: center;
@@ -174,8 +178,8 @@ footer {
 
 @media screen and (max-width: 992px) {
     header {
-        top: 96px;
-        height: 150px;
+        top: 91px;
+        height: 175px;
     }
     h1 {
         font-size: 2.5rem;
@@ -185,6 +189,10 @@ footer {
     }
     h3 {
         font-size: 1.5rem;
+    }
+    main {
+        position: relative;
+        top: 110px;
     }
     .card-body {
         text-align: center;
@@ -197,6 +205,8 @@ footer {
         box-shadow: 0px -2px 5px;
     }
     footer {
+        position: relative;
+        top: 125px;
         height: 75px;
     }
 }
