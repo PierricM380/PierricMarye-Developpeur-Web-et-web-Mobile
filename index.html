@@ -34,6 +34,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
           <li class="nav-item"><a class="nav-link" href="#profile">Qui suis-je ?</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Réalisations</a></li>
           <li class="nav-item"><a class="nav-link" href="#curses">Parcours</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -100,24 +101,29 @@
       <section class="card h-100 g-O">
         <h3 class="card-header">Réalisations</h3>
         <div class="card-body">
-          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3">
+          <div class="row row-cols-2 row-cols-md-3 g-3">
+            <!-- achievement1 -->
             <div class="col">
-              <!-- achievement1 -->
-              <div class="clickable">
-                <a href="https://lesrecettesfacilesdegigi.netlify.app" target="_blank">
-                  <h6 class="img-title"><em>Les recettes faciles de Gigi</em></h6>
-                  <img class="clickable_img" src="ressources/pictures/easyRecipe.jpg" alt="Site web de recettes de cuisine">
-                </a>
-              </div>
+              <a class="disabled" href="https://lesrecettesfacilesdegigi.netlify.app" target="_blank">
+                <div class="clickable card">
+                  <img src="ressources/pictures/easyRecipe.jpg" class="clickable_img card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h6 class="card-title">Les recettes faciles de Gigi</h6>
+                  </div>
+                </div>
+              </a>
             </div>
+            <!-- achievement2 -->
             <div class="col">
-              <!-- achievement2 -->
-              <div class="clickable">
-                <a href="">
-                  <h6 class="img-title"><em>Les oiseaux de catalogne</em></h6>
-                  <img class="clickable_img" src="ressources/pictures/birdsCatalonia.jpg" alt="">
-                </a>
-              </div>
+              <a href="">
+                <div class="clickable card">
+                  <img src="ressources/pictures/birdsCatalonia.jpg" class="clickable_img card-img img-fluid" alt="...">
+                  <div class="card-img-overlay">
+                    <h6 class="card-title">Les oiseaux de Catalogne</h6>
+                  </div>
+                </div>
+              </a>
+              
             </div>
           </div>
         </div>
