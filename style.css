@@ -1,5 +1,7 @@
-* {
+*, ::before, ::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,16 +10,16 @@ body {
     'Open Sans', 
     'Helvetica Neue',
     serif;
-    background-color: rgb(69, 146, 175);
+    background-color: rgb(132, 161, 190);
 }
 
 nav {
-    background-color: rgb(51, 49, 59);
-    box-shadow: 0 0 10px rgb(51, 49, 59);
+    background-color: rgb(83, 89, 98);
+    box-shadow: 0 5px 10px rgb(83, 89, 98);
 }
 
 .navbar-nav .nav-item .nav-link {
-    color:rgb(227, 196, 168);
+    color:rgb(236, 228, 147);
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -30,40 +32,36 @@ nav {
 }
 
 section .card-body button {
-    color: rgb(69, 146, 175);
+    color: rgb(132, 161, 190);
 }
 
 section .card-body button:hover {
-    color: rgb(69, 146, 175);
+    color: rgb(132, 161, 190);
     font-weight: bold;
 }
 
 header {
     position: relative;
     top: 116px;
-    height: 300px;
+    height: 275px;
     display: flex;
-    align-items: top;
+    align-items: center;
     text-align: center;
-    background-image: url('ressources/pictures/headerBanner.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 10px rgb(51, 49, 59);
 }
 
 h1 {
     font-size: 3rem;
-    color: rgb(51, 49, 59);
+    color: rgb(83, 89, 98);
 }
 
 h2 {
     font-size: 2.1rem;
-    color: rgb(51, 49, 59);
+    color: rgb(83, 89, 98);
 }
 
 h3 {
     font-size: 1.6rem;
-    color: rgb(246, 245, 245);
+    color: rgb(236, 228, 147);
 }
 
 h1, h2, h3 {
@@ -80,22 +78,25 @@ main {
 }
 
 .card {
-    box-shadow: 0 0 10px rgb(51, 49, 59);
+    box-shadow: 0 0 10px rgb(83, 89, 98);
 }
 
 .card-header {
-    background-color: rgb(51, 49, 59);
+    background-color: rgb(83, 89, 98);
     text-align: center;
 }
 
 .card-body {
     text-align: justify;
     padding: 20px;
-    background-color: rgb(246, 245, 245);
+}
+
+.card-title_achievement {
+    text-align: initial;
 }
 
 main .card-text a {
-    color: rgb(69, 146, 175);
+    color: rgb(92, 120, 147);
     text-decoration: none;
 }
 
@@ -104,7 +105,11 @@ main .card-text a:hover {
 }
 
 .btn {
-    background-color: rgb(227, 196, 168);
+    background-color: rgb(236, 228, 147);
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px rgb(83, 89, 98);
 }
 
 .poi {
@@ -121,9 +126,9 @@ main .card-text a:hover {
     opacity: 0.5;
   }
 
-  h6 {
-      color: rgb(246, 245, 245);
-      font-weight: bold;
+h6 {
+    color: rgb(246, 245, 245);
+    font-weight: bold;
   }
 
 .list-group i {
@@ -177,28 +182,28 @@ main .card-text a:hover {
 h5 {
     font-size: 1.1rem;
     font-weight: bold;
-    color: rgb(227, 196, 168);
+    color: rgb(236, 228, 147);
 }
 
 article a {
     font-weight: bold;
-    color: rgb(51, 49, 59);
+    color: rgb(83, 89, 98);
 }
 
 article a:hover {
-    color: rgb(69, 146, 175);
+    color: rgb(132, 161, 190);
 }
 
 .github, .linkedin {
     font-size: 1.7rem;
-    color: rgb(69, 146, 175);
+    color: rgb(132, 161, 190);
     text-decoration: none;
 }
 
 .map {
     width: 100%;
     height: 200px;
-    box-shadow: -2px 0px 5px rgb(51, 49, 59);
+    box-shadow: -2px 0px 5px rgb(83, 89, 98);
 }
 
 footer {
@@ -209,8 +214,8 @@ footer {
     text-align: center;
     align-items: center;
     font-family: limelight;
-    background-color: rgb(51, 49, 59);
-    color: rgb(227, 196, 168);
+    background-color: rgb(83, 89, 98);
+    color: rgb(236, 228, 147);
 }
 
 @media screen and (max-width: 992px) {
