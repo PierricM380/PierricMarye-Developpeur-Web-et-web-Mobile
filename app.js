@@ -6,9 +6,9 @@ var typewriter = new Typewriter(headerAnim1, {
 
 typewriter
 	.changeDelay(50)
-	.typeString("Moi c'est <strong> Pierric Marye,</strong> ")
+	.typeString("Moi c'est <strong>Pierric Marye,</strong> ")
 	.pauseFor(500)
-	.typeString('<strong> développeur web et web mobile</strong>')
+	.typeString('<strong>développeur web et web mobile</strong>')
 	.pauseFor(1000)
 	.deleteChars(17)
     .pauseFor(1000)
