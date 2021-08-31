@@ -50,24 +50,21 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
     color: rgb(83, 89, 98);
 }
 
 h2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     color: rgb(236, 228, 147);
 }
 
 h3 {
-    font-size: 1.6rem;
-    color: rgb(236, 228, 147);
-}
-
-h1, h2, h3 {
-    font-family: cursive;
+    font-size: 2rem;
     font-weight: bold;
-    font-style: italic;
 }
 
 main {
@@ -89,10 +86,6 @@ main {
 .card-body {
     text-align: justify;
     padding: 20px;
-}
-
-.card-title_achievement {
-    text-align: initial;
 }
 
 main .card-text a {
@@ -125,11 +118,6 @@ main .card-text a:hover {
 .clickable:hover {
     cursor: pointer;
     opacity: 0.5;
-  }
-
-h6 {
-    color: rgb(246, 245, 245);
-    font-weight: bold;
   }
 
 .list-group i {
@@ -180,8 +168,8 @@ h6 {
     color: mediumblue;
 }
 
-h5 {
-    font-size: 1.1rem;
+h4 {
+    font-size: 1.2rem;
     font-weight: bold;
     color: rgb(236, 228, 147);
 }
@@ -221,14 +209,20 @@ footer {
 
 @media screen and (max-width: 992px) {
     header {
-        top: 100px;
-        height: 175px;
+        top: 110px;
+        height: 125px;
     }
     h1 {
-        font-size: 1.9rem;
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
     }
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size:1.1rem
     }
     main {
         position: relative;
