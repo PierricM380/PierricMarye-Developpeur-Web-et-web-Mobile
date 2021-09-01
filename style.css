@@ -235,6 +235,9 @@ footer {
         width: 75px;
         height: 75px;
     }
+    .body_achievement {
+        text-align: initial;
+    }
     .map {
         box-shadow: 0px -2px 5px;
     }
