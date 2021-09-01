@@ -1,12 +1,13 @@
-var headerAnim1 = document.querySelector('h1');
+// typewriter animation
+let headerAnim = document.querySelector('h1');
 
-var typewriter = new Typewriter(headerAnim1, {
+let typewriter = new Typewriter(headerAnim, {
 	deleteSpeed: 50
 });
 
 typewriter
 	.changeDelay(50)
-	.typeString("Moi c'est <strong>Pierric Marye,</strong> ")
+	.typeString("<strong>Pierric Marye,</strong> ")
 	.pauseFor(500)
 	.typeString('<strong>développeur web et web mobile</strong>')
 	.pauseFor(1000)
@@ -20,3 +21,6 @@ typewriter
 	.deleteChars(8)
 	.typeString('<strong>iOS</strong>')
 	.start();
+
+// animJS animation
+AOS.init();
