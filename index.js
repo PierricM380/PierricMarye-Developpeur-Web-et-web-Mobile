@@ -1,4 +1,4 @@
-// typewriter animation
+// typewriter animation h1
 let headerAnim = document.querySelector('h1');
 
 let typewriter = new Typewriter(headerAnim, {
@@ -7,19 +7,21 @@ let typewriter = new Typewriter(headerAnim, {
 
 typewriter
 	.changeDelay(50)
-	.typeString("<strong>Pierric Marye,</strong> ")
+	.typeString("<strong>Pierric Marye,</strong><br> ")
 	.pauseFor(500)
-	.typeString('<strong>développeur web et web mobile</strong>')
+	.typeString('<strong>développeur web et mobile</strong>')
 	.pauseFor(1000)
-	.deleteChars(17)
+	.deleteChars(13)
     .pauseFor(1000)
-	.typeString('<strong>Front-End</strong>')
+	.typeString('<strong><span style="color: #ff7f50">Front-End</span></strong>')
     .pauseFor(1000)
 	.deleteChars(9)
-	.typeString('<strong>Back-End</strong>')
+	.typeString('<strong><span style="color: #07617d">Back-End</span></strong>')
     .pauseFor(1000)
 	.deleteChars(8)
-	.typeString('<strong>iOS</strong>')
+	.typeString('<strong><span style="color: #ff6347">iOS</span></strong>')
+	.pauseFor(500)
+	.deleteChars(3)
 	.start();
 
 // animJS animation
