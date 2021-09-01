@@ -25,4 +25,7 @@ typewriter
 	.start();
 
 // animJS animation
-AOS.init();
+AOS.init({
+	easing:'linear',
+	duration: 1500
+})
