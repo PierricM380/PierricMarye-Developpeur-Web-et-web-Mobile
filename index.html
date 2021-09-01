@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/5528e9fcbf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="container-fluid">
@@ -33,26 +34,26 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
           <li class="nav-item"><a class="nav-link" href="#profile">Qui suis-je ?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
           <li class="nav-item"><a class="nav-link" href="#achievements">Réalisations</a></li>
           <li class="nav-item"><a class="nav-link" href="#curses">Parcours</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- HEADER -->
   <header class="row">
-    <section class="col-12">
+    <section class="col-lg-9">
       <h1></h1>
     </section>
   </header>
   <!-- MAIN -->
   <main class="row g-3">
     <!-- CARD PROFILE -->
-    <div class="col-lg-9" id="profile">
+    <div class="col-lg-9" id="profile" data-aos="zoom-in" data-aos-duration="1500">
       <section class="card h-100 g-0">
-        <h2 class="card-header">A propos de moi</h2>
+        <h2 class="card-header">A mon propos</h2>
         <div class="card-body">
           <p class="card-text">
             Après une formation auprès de l'organisme <a href="https://www.studi.fr" target="_blank"><em>studi</em></a>
@@ -71,7 +72,7 @@
       </section>
     </div>
     <!-- CONTACT -->
-    <div class="col-lg-9" id="contact">
+    <div class="col-lg-9" id="contact" data-aos="fade-left" data-aos-duration="1500">
       <section class="card h-100 g-0">
         <h2 class="card-header">Me contacter</h2>
         <div class="card-body">
@@ -96,7 +97,7 @@
       </section>
     </div>
     <!-- ACHIEVEMENTS -->
-    <div class="col-lg-9" id="achievements">
+    <div class="col-lg-9" id="achievements" data-aos="fade-right" data-aos-duration="1500">
       <section class="card h-100 g-O">
         <h2 class="card-header">Réalisations</h2>
         <div class="card-body">
@@ -128,7 +129,7 @@
       </section>
     </div>
     <!-- SKILLS -->
-    <div class="col-lg-9" id="skills">
+    <div class="col-lg-9" id="skills" data-aos="fade-left" data-aos-duration="1500">
       <section class="card h-100 g-0">
         <h2 class="card-header">Mes compétences</h2>
         <div class="card-body">
@@ -231,7 +232,7 @@
       </section>
     </div>
     <!-- CURSES -->
-    <div class="col-lg-9" id="curses">
+    <div class="col-lg-9" id="curses" data-aos="fade-right" data-aos-duration="1500">
       <section class="card h-100 g-0">
         <h2 class="card-header">Mon parcours</h2>
         <!-- Tab bar -->
@@ -332,7 +333,8 @@
   </footer>
 
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="index.js"></script>
   <script src="JQuery/jquery-3.6.0.min.js"></script>
   <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
