@@ -235,6 +235,9 @@ footer {
         width: 75px;
         height: 75px;
     }
+    .card-body {
+    text-align: center;
+    }
     .body_achievement {
         text-align: initial;
     }
