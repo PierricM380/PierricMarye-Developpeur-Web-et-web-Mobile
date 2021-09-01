@@ -47,6 +47,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -134,7 +135,7 @@ main .card-text a:hover {
 }
 
 .html {
-    color: coral;
+    color: #ff7f50;
 }
 .css {
     color: cornflowerblue;
@@ -146,25 +147,25 @@ main .card-text a:hover {
     color: rgb(195, 205, 50);
 }
 .wordpress {
-    color: darkslateblue;
+    color: #483d8b;
 }
 .react {
-    color: blueviolet;
+    color: #8a2be2;
 }
 .php {
-    color: blue
+    color: #0000ff
 }
 .bdata {
-    color: darkgray;
+    color: #a9a9a9;
 }
 .swift1 {
-    color: tomato;
+    color: #ff6347;
 }
 .swift2 {
-    color: slateblue;
+    color: #6a5acd;
 }
 .swift3 {
-    color: mediumblue;
+    color: #0000cd;
 }
 
 h4 {
@@ -227,10 +228,6 @@ footer {
         position: relative;
         top: 110px;
     }
-    .card-body {
-        text-align: center;
-    }
-
     .clickable_img {
         height: 100px;
     }
