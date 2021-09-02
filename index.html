@@ -22,24 +22,12 @@
 
 <body class="container-fluid">
   <!-- NAVIGATION BAR -->
-  <nav class="row navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="col-12 container-fluid">
-      <!-- navbar-toggler at ligne breakpoint -->
-      <img class="profile-picture img-fluid img-thumbnail rounded-circle mx-3"
-        src="ressources/pictures/profilPicture.jpg" alt="Photo de profile">
-      <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
-          <li class="nav-item"><a class="nav-link" href="#profile">Qui suis-je ?</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
-          <li class="nav-item"><a class="nav-link" href="#achievements">Réalisations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#curses">Parcours</a></li>
-        </ul>
-      </div>
+  <nav class="row navbar navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img class="profile-picture img-fluid img-thumbnail" src="ressources/pictures/profilPicture.jpg" alt="">
+        <span><strong>Pierric MARYE</strong></span>
+      </a>
     </div>
   </nav>
   <!-- HEADER -->
@@ -49,9 +37,9 @@
     </section>
   </header>
   <!-- MAIN -->
-  <main class="row g-3">
+  <div class="row profile mx-1">
     <!-- CARD PROFILE -->
-    <div class="col-lg-9" id="profile" data-aos="zoom-in">
+    <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
         <h2 class="card-header">A mon propos</h2>
         <div class="card-body">
@@ -71,8 +59,10 @@
         </div>
       </section>
     </div>
+  </div>
+  <div class="row contact mx-1">
     <!-- CONTACT -->
-    <div class="col-lg-9" id="contact" data-aos="zoom-in">
+    <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
         <h2 class="card-header">Me contacter</h2>
         <div class="card-body">
@@ -96,8 +86,10 @@
         </div>
       </section>
     </div>
+  </div>
+  <div class="row achievements mx-1">
     <!-- ACHIEVEMENTS -->
-    <div class="col-lg-9" id="achievements" data-aos="zoom-in">
+    <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-O">
         <h2 class="card-header">Réalisations</h2>
         <div class="body_achievement card-body">
@@ -128,8 +120,10 @@
         </div>
       </section>
     </div>
+  </div>
+  <div class="row skills mx-1">
     <!-- SKILLS -->
-    <div class="col-lg-9" id="skills" data-aos="zoom-in">
+    <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
         <h2 class="card-header">Mes compétences</h2>
         <div class="card-body">
@@ -231,8 +225,10 @@
         </div>
       </section>
     </div>
+  </div>
+  <div class="row curses mx-1">
     <!-- CURSES -->
-    <div class="col-lg-9" id="curses" data-aos="zoom-in">
+    <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
         <h2 class="card-header">Mon parcours</h2>
         <!-- Tab bar -->
@@ -321,7 +317,7 @@
         </div>
       </section>
     </div>
-  </main>
+  </div>
   <!-- FOOTER -->
   <footer class="row">
     <div class="col-12">
