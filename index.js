@@ -7,9 +7,7 @@ let typewriter = new Typewriter(headerAnim, {
 
 typewriter
 	.changeDelay(50)
-	.typeString("<strong>Pierric Marye,</strong><br> ")
-	.pauseFor(500)
-	.typeString('<strong>développeur web et mobile</strong>')
+	.typeString('<strong>Développeur</strong> web et mobile')
 	.pauseFor(1000)
 	.deleteChars(13)
     .pauseFor(1000)
