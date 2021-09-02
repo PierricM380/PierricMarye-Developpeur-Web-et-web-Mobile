@@ -18,31 +18,21 @@ nav {
     box-shadow: 0 5px 10px rgb(46, 56, 63);
 }
 
-.navbar-nav .nav-item .nav-link {
-    color:rgb(249, 168, 40);
-}
-
-.navbar-nav .nav-item .nav-link:hover {
-    font-weight: bold;
-}
-
 .profile-picture {
     width: 100px;
     height: 100px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-section .card-body button {
-    color: rgb(7, 97, 125);
-}
-
-section .card-body button:hover {
-    color: rgb(7, 97, 125);
-    font-weight: bold;
+nav span {
+    color: rgb(249, 168, 40);
 }
 
 header {
     position: relative;
-    top: 130px;
+    top: 126px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -57,6 +47,15 @@ h1 {
     color: rgb(46, 56, 63);
 }
 
+section .card-body button {
+    color: rgb(7, 97, 125);
+}
+
+section .card-body button:hover {
+    color: rgb(7, 97, 125);
+    font-weight: bold;
+}
+
 h2 {
     font-size: 2rem;
     color: rgb(249, 168, 40);
@@ -67,11 +66,34 @@ h3 {
     font-weight: bold;
 }
 
-main {
-    position: relative;
-    top: 135px;
+.profile, .contact, .achievements, .skills, .curses {
     display: flex;
     justify-content: center;
+}
+
+.profile {
+    position: relative;
+    top: 125px;
+}
+
+.contact {
+    position: relative;
+    top: 150px;
+}
+
+.achievements {
+    position: relative;
+    top: 175px;
+}
+
+.skills {
+    position: relative;
+    top: 200px;
+}
+
+.curses {
+    position: relative;
+    top: 225px;
 }
 
 .card {
@@ -197,7 +219,7 @@ article a:hover {
 
 footer {
     position: relative;
-    top: 150px;
+    top: 250px;
     height: 100px;
     display: flex;
     text-align: center;
@@ -209,31 +231,46 @@ footer {
 
 @media screen and (max-width: 992px) {
     header {
-        top: 110px;
+        top: 80px;
         height: 125px;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     h4 {
-        font-size:1.1rem
+        font-size:1rem
     }
-    main {
+    .profile {
+        top: 75px;
+    }
+    .contact {
         position: relative;
-        top: 110px;
+        top: 100px;
+    }
+    .achievements {
+        position: relative;
+        top: 125px;
+    }
+    .skills {
+        position: relative;
+        top: 150px;
+    }
+    .curses {
+        position: relative;
+        top: 175px;
     }
     .clickable_img {
         height: 100px;
     }
     .profile-picture {
-        width: 75px;
-        height: 75px;
+        width: 50px;
+        height: 50px;
     }
     .card-body {
     text-align: center;
@@ -246,7 +283,7 @@ footer {
     }
     footer {
         position: relative;
-        top: 125px;
+        top: 200px;
         height: 75px;
     }
 }
