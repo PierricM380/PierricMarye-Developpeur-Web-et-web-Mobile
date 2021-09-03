@@ -1,289 +1,275 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 
-    'Helvetica Neue',
-    serif;
-    background-color: rgb(236, 236, 235);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
+  background-color: rgb(236, 236, 235);
 }
 
+/* NAVIGATION */
 nav {
-    background-color: rgb(46, 56, 63);
-    box-shadow: 0 5px 10px rgb(46, 56, 63);
+  background-color: rgb(46, 56, 63);
+  box-shadow: 0 5px 10px rgb(46, 56, 63);
 }
-
 .profile-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
 nav span {
-    color: rgb(249, 168, 40);
+  color: rgb(249, 168, 40);
 }
 
+/* HEADER */
 header {
-    position: relative;
-    top: 126px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  position: relative;
+  top: 126px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    font-style: italic;
-    color: rgb(46, 56, 63);
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(46, 56, 63);
 }
 
-section .card-body button {
-    color: rgb(7, 97, 125);
-}
-
-section .card-body button:hover {
-    color: rgb(7, 97, 125);
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 2rem;
-    color: rgb(249, 168, 40);
-}
-
-h3 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.profile, .contact, .achievements, .skills, .curses {
-    display: flex;
-    justify-content: center;
-}
-
-.profile {
-    position: relative;
-    top: 125px;
-}
-
-.contact {
-    position: relative;
-    top: 150px;
-}
-
-.achievements {
-    position: relative;
-    top: 175px;
-}
-
-.skills {
-    position: relative;
-    top: 200px;
-}
-
+/* MAIN */
+.profile,
+.contact,
+.achievements,
+.skills,
 .curses {
-    position: relative;
-    top: 225px;
+  display: flex;
+  justify-content: center;
 }
-
 .card {
-    box-shadow: 0 0 10px rgb(46, 56, 63);
+  box-shadow: 0 0 10px rgb(46, 56, 63);
 }
-
 .card-header {
-    background-color: rgb(7, 97, 125);
-    text-align: center;
+  background-color: rgb(7, 97, 125);
+  text-align: center;
 }
-
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 .card-body {
-    text-align: justify;
-    padding: 20px;
+  text-align: justify;
+  padding: 20px;
 }
 
-main .card-text a {
-    color: rgb(92, 120, 147);
-    text-decoration: none;
+/* PROFILE CARD */
+.profile {
+  position: relative;
+  top: 125px;
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(249, 168, 40);
+}
+.profile .card-text > a {
+  color: rgb(7, 97, 125);
+  font-weight: bold;
+  text-decoration: none;
+}
+.profile .btn {
+  color: rgb(7, 97, 125);
+  background-color: rgb(249, 168, 40);
+}
+.profile .btn:hover {
+  box-shadow: 0 0 5px rgb(46, 56, 63);
 }
 
-main .card-text a:hover {
-    font-weight: bold;
+/* CONTACT CARD */
+.contact {
+  position: relative;
+  top: 150px;
 }
-
-.btn {
-    background-color: rgb(249, 168, 40);
-    cursor: pointer;
+.contact .btn {
+  color: rgb(7, 97, 125);
+  background-color: rgb(249, 168, 40);
 }
-
-.btn:hover {
-    box-shadow: 0 0 5px rgb(46, 56, 63);
+.contact .btn:hover {
+  box-shadow: 0 0 5px rgb(46, 56, 63);
 }
-
+.github,
+.linkedin {
+  color: rgb(7, 97, 125);
+  text-decoration: none;
+}
+.indeed {
+    width: 80px;
+    height: auto;
+}
 .poi {
-    color: rgb(247, 56, 89);
+  color: rgb(247, 56, 89);
 }
 
+/* ACHIEVEMENTS CARD */
+.achievements {
+  position: relative;
+  top: 175px;
+}
 .clickable_img {
-    width: 100%;
-    height: 150px;
+  width: 100%;
+  height: 150px;
 }
-
 .clickable:hover {
-    cursor: pointer;
-    opacity: 0.5;
-  }
+  cursor: pointer;
+  opacity: 0.5;
+}
 
+/* SKILLS CARD */
+.skills {
+  position: relative;
+  top: 200px;
+}
 .list-group i {
-    font-size: 20px;
-    margin-right: 5px;
+  font-size: 20px;
+  margin-right: 5px;
 }
-
 .list-group-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
+.skills .accordion-button {
+  color: rgb(7, 97, 125);
+}
 .accordion-body i {
-    font-size: 35px;
+  font-size: 35px;
 }
-
 .html {
-    color: #ff7f50;
+  color: #ff7f50;
 }
 .css {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 .bootstrap {
-    color: violet;
+  color: violet;
 }
 .java {
-    color: rgb(195, 205, 50);
+  color: rgb(195, 205, 50);
 }
 .wordpress {
-    color: #483d8b;
+  color: #483d8b;
 }
 .react {
-    color: #8a2be2;
+  color: #8a2be2;
 }
 .php {
-    color: #0000ff
+  color: #0000ff;
 }
 .bdata {
-    color: #a9a9a9;
+  color: #a9a9a9;
 }
 .swift1 {
-    color: #ff6347;
+  color: #ff6347;
 }
 .swift2 {
-    color: #6a5acd;
+  color: #6a5acd;
 }
 .swift3 {
-    color: #0000cd;
+  color: #0000cd;
 }
 
+/* CURSES CARD */
+.curses {
+  position: relative;
+  top: 225px;
+}
 h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(249, 168, 40);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(249, 168, 40);
 }
-
-article a {
-    font-weight: bold;
-    color: rgb(46, 56, 63);
+.curses .nav-link {
+  color: rgb(7, 97, 125);
 }
-
+.curses a {
+  font-weight: bold;
+  color: rgb(46, 56, 63);
+}
 article a:hover {
-    color: rgb(7, 97, 125);
+  color: rgb(7, 97, 125);
 }
 
-.github, .linkedin {
-    font-size: 1.7rem;
-    color: rgb(7, 97, 125);
-    text-decoration: none;
-}
-
-.map {
-    width: 100%;
-    height: 200px;
-    box-shadow: -2px 0px 5px rgb(46, 56, 63);
-}
-
+/* FOOTER */
 footer {
-    position: relative;
-    top: 250px;
-    height: 100px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-family: limelight;
-    background-color: rgb(46, 56, 63);
-    color: rgb(249, 168, 40);
+  position: relative;
+  top: 250px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: limelight;
+  background-color: rgb(46, 56, 63);
+  color: rgb(249, 168, 40);
 }
 
 @media screen and (max-width: 992px) {
-    header {
-        top: 80px;
-        height: 125px;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    h2 {
-        font-size: 1.1rem;
-    }
-    h3 {
-        font-size: 1.1rem;
-    }
-    h4 {
-        font-size:1rem
-    }
-    .profile {
-        top: 75px;
-    }
-    .contact {
-        position: relative;
-        top: 100px;
-    }
-    .achievements {
-        position: relative;
-        top: 125px;
-    }
-    .skills {
-        position: relative;
-        top: 150px;
-    }
-    .curses {
-        position: relative;
-        top: 175px;
-    }
-    .clickable_img {
-        height: 100px;
-    }
-    .profile-picture {
-        width: 50px;
-        height: 50px;
-    }
-    .card-body {
+  header {
+    top: 80px;
+    height: 125px;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .profile {
+    top: 75px;
+  }
+  .contact {
+    position: relative;
+    top: 100px;
+  }
+  .achievements {
+    position: relative;
+    top: 125px;
+  }
+  .skills {
+    position: relative;
+    top: 150px;
+  }
+  .curses {
+    position: relative;
+    top: 175px;
+  }
+  .clickable_img {
+    height: 100px;
+  }
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+  }
+  .card-body {
     text-align: center;
-    }
-    .body_achievement {
-        text-align: initial;
-    }
-    .map {
-        box-shadow: 0px -2px 5px;
-    }
-    footer {
-        position: relative;
-        top: 200px;
-        height: 75px;
-    }
+  }
+  .body_achievement {
+    text-align: initial;
+  }
+  .map {
+    box-shadow: 0px -2px 5px;
+  }
+  footer {
+    position: relative;
+    top: 200px;
+    height: 75px;
+  }
 }
