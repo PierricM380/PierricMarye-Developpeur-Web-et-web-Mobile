@@ -7,7 +7,7 @@ let typewriter = new Typewriter(headerAnim, {
 
 typewriter
 	.changeDelay(50)
-	.typeString('<strong>Développeur</strong> web et mobile')
+	.typeString('<strong>Développeur web et mobile</strong>')
 	.pauseFor(1000)
 	.deleteChars(13)
     .pauseFor(1000)
@@ -25,5 +25,5 @@ typewriter
 // animJS animation
 AOS.init({
 	easing:'linear',
-	duration: 1500
+	duration: 1000
 })
