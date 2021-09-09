@@ -16,6 +16,7 @@ body {
 nav {
   background-color: rgb(46, 56, 63);
   box-shadow: 0 5px 10px rgb(46, 56, 63);
+  transition: 0.5s;
 }
 .profile-picture {
   width: 100px;
