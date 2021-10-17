@@ -18,6 +18,7 @@ nav {
   box-shadow: 0 5px 10px rgb(46, 56, 63);
   transition: 0.5s;
 }
+
 .profile-picture {
   width: 100px;
   height: 100px;
@@ -25,6 +26,7 @@ nav {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 nav span {
   color: rgb(249, 168, 40);
 }
@@ -39,6 +41,7 @@ header {
   justify-content: center;
   text-align: center;
 }
+
 h1 {
   font-size: 3.5rem;
   font-weight: bold;
@@ -55,17 +58,21 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .card {
   box-shadow: 0 0 10px rgb(46, 56, 63);
 }
+
 .card-header {
   background-color: rgb(7, 97, 125);
   text-align: center;
 }
+
 h3 {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .card-body {
   text-align: justify;
   padding: 20px;
@@ -76,19 +83,23 @@ h3 {
   position: relative;
   top: 125px;
 }
+
 h2 {
   font-size: 2rem;
   color: rgb(249, 168, 40);
 }
-.profile .card-text > a {
+
+.profile .card-text>a {
   color: rgb(7, 97, 125);
   font-weight: bold;
   text-decoration: none;
 }
+
 .profile .btn {
   color: rgb(7, 97, 125);
   background-color: rgb(249, 168, 40);
 }
+
 .profile .btn:hover {
   box-shadow: 0 0 5px rgb(46, 56, 63);
 }
@@ -98,22 +109,27 @@ h2 {
   position: relative;
   top: 150px;
 }
+
 .contact .btn {
   color: rgb(7, 97, 125);
   background-color: rgb(249, 168, 40);
 }
+
 .contact .btn:hover {
   box-shadow: 0 0 5px rgb(46, 56, 63);
 }
+
 .github,
 .linkedin {
   color: rgb(7, 97, 125);
   text-decoration: none;
 }
+
 .indeed {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
+
 .poi {
   color: rgb(247, 56, 89);
 }
@@ -123,10 +139,12 @@ h2 {
   position: relative;
   top: 175px;
 }
+
 .clickable_img {
   width: 100%;
   height: 150px;
 }
+
 .clickable:hover {
   cursor: pointer;
   opacity: 0.5;
@@ -137,50 +155,65 @@ h2 {
   position: relative;
   top: 200px;
 }
+
 .list-group i {
   font-size: 20px;
   margin-right: 5px;
 }
+
 .list-group-item {
   display: flex;
   align-items: center;
 }
+
 .skills .accordion-button {
   color: rgb(7, 97, 125);
 }
+
 .accordion-body i {
   font-size: 35px;
 }
+
 .html {
   color: #ff7f50;
 }
+
 .css {
   color: cornflowerblue;
 }
+
 .bootstrap {
   color: violet;
 }
+
 .java {
   color: rgb(195, 205, 50);
 }
+
 .wordpress {
   color: #483d8b;
 }
+
 .react {
   color: #8a2be2;
 }
+
 .php {
   color: #0000ff;
 }
+
 .bdata {
   color: #a9a9a9;
 }
+
 .swift1 {
   color: #ff6347;
 }
+
 .swift2 {
   color: #6a5acd;
 }
+
 .swift3 {
   color: #0000cd;
 }
@@ -190,18 +223,22 @@ h2 {
   position: relative;
   top: 225px;
 }
+
 h4 {
   font-size: 1.2rem;
   font-weight: bold;
   color: rgb(249, 168, 40);
 }
+
 .curses .nav-link {
   color: rgb(7, 97, 125);
 }
+
 .curses a {
   font-weight: bold;
   color: rgb(46, 56, 63);
 }
+
 article a:hover {
   color: rgb(7, 97, 125);
 }
@@ -224,50 +261,64 @@ footer {
     top: 80px;
     height: 125px;
   }
+
   h1 {
     font-size: 1.6rem;
   }
+
   h2 {
     font-size: 1.2rem;
   }
+
   h4 {
     font-size: 1rem;
   }
+
   .profile {
     top: 75px;
   }
+
   .contact {
     position: relative;
     top: 100px;
   }
+
   .achievements {
     position: relative;
     top: 125px;
   }
+
   .skills {
     position: relative;
     top: 150px;
   }
+
   .curses {
     position: relative;
     top: 175px;
   }
+
   .clickable_img {
     height: 100px;
   }
+
   .profile-picture {
     width: 50px;
     height: 50px;
   }
+
   .card-body {
     text-align: center;
   }
+
   .body_achievement {
     text-align: initial;
   }
+
   .map {
     box-shadow: 0px -2px 5px;
   }
+
   footer {
     position: relative;
     top: 200px;
