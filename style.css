@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
 *,
 ::before,
 ::after {
@@ -47,6 +49,44 @@ h1 {
   font-weight: bold;
   font-style: italic;
   color: rgb(46, 56, 63);
+}
+
+#target {
+  display: flex;
+  width: 150px;
+  text-align: left;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 3.5rem;
+  animation: color 30s alternate infinite;
+  perspective: 200px;
+  transform: translateX(26px);
+}
+
+.word {
+  position: absolute;
+}
+
+@keyframes color {
+  0% {color: #ff7f50;}
+  50% {color: cornflowerblue;}
+  100% {color: #ff6347;}
+}
+
+.letter {
+  transform: translateZ(200px);
+}
+
+@keyframes anim {
+  25% {
+    transform: translateZ(0px);
+    opacity: 1;
+  }
+  
+  32% {
+    opacity: 0;
+    transform: translateZ(-280px) translateX(200px);
+  }
 }
 
 /* MAIN */
@@ -262,6 +302,11 @@ footer {
 
   h1 {
     font-size: 1.6rem;
+  }
+
+  #target {
+    font-size: 1.6rem;
+    width: 110px;
   }
 
   h2 {
