@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fruktur');
 
 *,
 ::before,
@@ -55,7 +55,7 @@ h1 {
   display: flex;
   width: 150px;
   text-align: left;
-  font-family: cursive;
+  font-family: Fruktur;
   font-weight: bold;
   font-size: 3.5rem;
   animation: color 30s alternate infinite;
@@ -111,6 +111,7 @@ h1 {
 h3 {
   font-size: 2rem;
   font-weight: bold;
+  color: rgb(249, 168, 40);
 }
 
 .card-body {
@@ -124,9 +125,8 @@ h3 {
   top: 125px;
 }
 
-h2 {
-  font-size: 2rem;
-  color: rgb(249, 168, 40);
+.profile .card-body {
+  text-align: center;
 }
 
 .profile .card-text>a {
@@ -135,8 +135,11 @@ h2 {
   text-decoration: none;
 }
 
+.profile .card-text>a:hover {
+  text-decoration: underline;
+}
+
 .profile .btn {
-  color: rgb(7, 97, 125);
   background-color: rgb(249, 168, 40);
 }
 
@@ -151,7 +154,6 @@ h2 {
 }
 
 .contact .btn {
-  color: rgb(7, 97, 125);
   background-color: rgb(249, 168, 40);
 }
 
@@ -262,7 +264,7 @@ h2 {
   top: 225px;
 }
 
-h4 {
+h5 {
   font-size: 1.2rem;
   font-weight: bold;
   color: rgb(249, 168, 40);
@@ -274,11 +276,13 @@ h4 {
 
 .curses a {
   font-weight: bold;
-  color: rgb(46, 56, 63);
+  color: rgb(7, 97, 125);
+  text-decoration: none;
 }
 
 article a:hover {
   color: rgb(7, 97, 125);
+  text-decoration: underline;
 }
 
 /* FOOTER */
@@ -301,19 +305,19 @@ footer {
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   #target {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     width: 110px;
   }
 
-  h2 {
-    font-size: 1.2rem;
+  h3 {
+    font-size: 1.3rem;
   }
 
-  h4 {
+  h5 {
     font-size: 1rem;
   }
 
