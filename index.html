@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/5528e9fcbf.js" crossorigin="anonymous"></script>
+  <!-- Generals metas  -->
   <meta name="Description"
     content="Développeur web et web mobile, je crée votre site web et application mobile. Envie d'un site vitrine, d'un site web e-commerce ou même une application sur smartphone... Je suis le développeur qu'il vous faut !">
   <meta name="Content-Language" content="fr">
@@ -24,6 +25,7 @@
   <meta name="Distribution" content="global">
   <meta name="Category" content="internet">
   <meta name="Identifier-Url" content="https://pierricmaryemoncvenligne.netlify.app">
+  <!-- metas facebook -->
   <meta property="og:title" content="Pierric Marye - Mon CV en ligne">
   <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
   <meta property="og:description"
@@ -49,12 +51,11 @@
       <h2 id="target"></h2>
     </section>
   </header>
-  <!-- MAIN -->
-  <div class="row profile mx-1">
-    <!-- CARD PROFILE -->
+  <!-- CARD PROFILE -->
+  <div class="row profile">
     <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
-        <h2 class="card-header">A mon propos</h2>
+        <h3 class="card-header">A mon propos</h3>
         <div class="card-body">
           <p class="card-text">
             Actuellement en formation, auprès de l'organisme <a href="https://www.studi.fr"
@@ -73,11 +74,11 @@
       </section>
     </div>
   </div>
-  <div class="row contact mx-1">
-    <!-- CONTACT -->
+  <!-- CARD CONTACT -->
+  <div class="row contact">
     <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
-        <h2 class="card-header">Me contacter</h2>
+        <h3 class="card-header">Me contacter</h3>
         <div class="card-body">
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -102,11 +103,11 @@
       </section>
     </div>
   </div>
-  <div class="row achievements mx-1">
-    <!-- ACHIEVEMENTS -->
+  <!-- CARD ACHIEVEMENTS -->
+  <div class="row achievements">
     <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-O">
-        <h2 class="card-header">Réalisations</h2>
+        <h3 class="card-header">Réalisations</h3>
         <div class="card-body">
           <!-- Carousel -->
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -154,21 +155,22 @@
       </section>
     </div>
   </div>
-  <div class="row skills mx-1">
+  <!-- CARD SKILLS -->
+  <div class="row skills">
     <!-- SKILLS -->
     <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
-        <h2 class="card-header">Mes compétences</h2>
+        <h3 class="card-header">Mes compétences</h3>
         <div class="card-body">
           <!-- Accordion 1 -->
           <article class="accordion-item" id="accordionExample">
             <div class="accordion-item">
-              <h3 class="accordion-header" id="headingOne">
+              <h4 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
                   Front-end
                 </button>
-              </h3>
+              </h4>
             </div>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
@@ -201,12 +203,12 @@
           </article>
           <!-- Accordion 2 -->
           <article class="accordion-item">
-            <h3 class="accordion-header" id="headingTwo">
+            <h4 class="accordion-header" id="headingTwo">
               <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Back-end
               </button>
-            </h3>
+            </h4>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample">
               <div class="accordion-body ">
@@ -231,12 +233,12 @@
           </article>
           <!-- Accordion 3 -->
           <article class="accordion-item">
-            <h3 class="accordion-header" id="headingThree">
+            <h4 class="accordion-header" id="headingThree">
               <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Mobile iOS
               </button>
-            </h3>
+            </h4>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionExample">
               <div class="accordion-body ">
@@ -259,11 +261,12 @@
       </section>
     </div>
   </div>
-  <div class="row curses mx-1">
+  <!-- CARD CURSES -->
+  <div class="row curses">
     <!-- CURSES -->
     <div class="col-lg-9" data-aos="zoom-in">
       <section class="card h-100 g-0">
-        <h2 class="card-header">Mon parcours</h2>
+        <h3 class="card-header">Mon parcours</h3>
         <!-- Tab bar -->
         <div class="card-body">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -280,14 +283,14 @@
             <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
               <!-- le contenu expériences -->
               <article>
-                <h4>2017 - 2021</h4>
+                <h5>2017 - 2021</h5>
                 <p>
                   <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
                   Agent de location et préparateur de véhicules.
                 </p>
               </article>
               <article>
-                <h4>2011 - 2017</h4>
+                <h5>2011 - 2017</h5>
                 <p>
                   <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
                     E.LECLERC Perpignan</a>
@@ -296,7 +299,7 @@
                 </p>
               </article>
               <article>
-                <h4>2004 - 2011</h4>
+                <h5>2004 - 2011</h5>
                 <p>
                   <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
                   <a href="https://www.reserveafricainesigean.fr"> environnementaux</a> et
@@ -309,7 +312,7 @@
             <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
               <!-- le contenu formations -->
               <article>
-                <h4>2021 -</h4>
+                <h5>2021 -</h5>
                 <p>
                   Formation STUDI -
                   <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
@@ -318,13 +321,13 @@
                 </p>
               </article>
               <article>
-                <h4>2020</h4>
+                <h5>2020</h5>
                 <p>
                   Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
                 </p>
               </article>
               <article>
-                <h4>2006 - 2010</h4>
+                <h5>2006 - 2010</h5>
                 <p>
                   Formation bagage des oiseaux -
                   <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
@@ -332,7 +335,7 @@
                 </p>
               </article>
               <article>
-                <h4>2002 - 2004</h4>
+                <h5>2002 - 2004</h5>
                 <p>
                   D.U.T. Gestion Logistique & Transport -
                   <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
@@ -340,7 +343,7 @@
                 </p>
               </article>
               <article>
-                <h4>2002</h4>
+                <h5>2002</h5>
                 <p>Baccalauréat Scientifique -
                   <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
                 </p>
@@ -360,7 +363,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="JQuery/jquery-3.6.0.min.js"></script>
   <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
