@@ -16,7 +16,7 @@
     content="Développeur web et web mobile, je crée votre site web et application mobile. Envie d'un site vitrine, d'un site web e-commerce ou même une application sur smartphone... Je suis le développeur qu'il vous faut !">
   <meta name="Content-Language" content="fr">
   <meta name="Keywords"
-    content="développeur, développement, informatique, site, web, application, mobile, CV, html, ces, javascript, bootstrap, php, symfony, react native, base de données, swift, iOS.">
+    content="développeur, développement, informatique, site, web, application, mobile, CV, html, ces, javascript, bootstrap, php, symfony, react native, base de données, swift, iOS, jeu, dé, dice">
   <meta name="Subject" content="développeur web et web mobile">
   <meta name="Copyright" content="Pierric Marye">
   <meta name="Author" content="Pierric Marye">
@@ -26,11 +26,12 @@
   <meta name="Category" content="internet">
   <meta name="Identifier-Url" content="https://pierricmaryemoncvenligne.netlify.app">
   <!-- metas facebook -->
-  <meta property="og:title" content="Pierric Marye - Mon CV en ligne">
-  <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
+  <meta property="og:url" content="https://pierricmaryemoncvenligne.netlify.app">
+  <meta property="og:title" content="Pierric Marye - Développeur web et mobile">
+  <meta property="og:type" content="website">
   <meta property="og:description"
     content="Développeur web et web mobile, je crée votre site web et application mobile. Envie d'un site vitrine, d'un site web e-commerce ou même une application sur smartphone... Je suis le développeur qu'il vous faut !">
-  <meta property="og:url" content="https://pierricmaryemoncvenligne.netlify.app">
+    <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
 </head>
 
 <body class="container-fluid">
@@ -87,12 +88,12 @@
               <i class="fas fa-paper-plane"></i>
               <a class="btn ms-1" href="mailto:pierric.marye380@gmail.com" role="button">Me contacter</a>
             <li class="list-group-item">
-              <a class="github me-1" href="https://github.com/PierricM380" title="Voir ma page GitHub" target="_blank"><i
-                  class="fab fa-github"></i></a>
-              <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" title="Voir ma page Linkin"  target="_blank"><i
-                  class="fab fa-linkedin"></i></a>
-              <a href="https://my.indeed.com/p/pierricm-bbkivqd/profile" title="Voir ma page Indeed"  target="_blank"><img class="indeed"
-                  src="ressources/pictures/indeed-logo.svg" alt="Logo indeed"></a>
+              <a class="github me-1" href="https://github.com/PierricM380" title="Voir ma page GitHub"
+                target="_blank"><i class="fab fa-github"></i></a>
+              <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" title="Voir ma page Linkin"
+                target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://my.indeed.com/p/pierricm-bbkivqd/profile" title="Voir ma page Indeed"
+                target="_blank"><img class="indeed" src="ressources/pictures/indeed-logo.svg" alt="Logo indeed"></a>
             </li>
             <li class="list-group-item">
               <i class="poi fas fa-map-marker-alt"></i>3 rue du Chardonnay, 66380 PIA
@@ -113,20 +114,35 @@
                 aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
+            <!-- Easy recipe of Gigi -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="https://lesrecettesfacilesdegigi.netlify.app" title="Visiter le site">
+                <a href="https://lesrecettesfacilesdegigi.netlify.app" title="Visiter le site" target="_blank">
                   <img src="ressources/pictures/easyRecipe.png" class="img-fluid d-block w-100"
-                    alt="légumes méditerranéen">
+                    alt="légumes méditerranéen sur une table en bois">
                 </a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Les recettes faciles de Gigi</h5>
                   <p>Des idées simples et rapides à réaliser.</p>
                 </div>
               </div>
+              <!-- The Hundred Dice -->
               <div class="carousel-item">
-                <a href="" title="Site en construction">
+                <a href="https://the-hundred-dice-game.netlify.app" title="Visiter le site" target="_blank">
+                  <img src="ressources/pictures/theHundredDice.png" class="d-block w-100"
+                    alt="dés sur un plateau de jeu">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The Hundred Dice</h5>
+                  <p>Jeu de dé avec deux joueurs</p>
+                </div>
+              </div>
+              <!-- Ornitho Quiz -->
+              <div class="carousel-item">
+                <a href="" title="Site en construction" target="_blank">
                   <img src="ressources/pictures/ornithoQuiz.png" class="d-block w-100"
                     alt="livre et application sur les oiseaux">
                 </a>
@@ -359,7 +375,6 @@
 
   <script src="JQuery/jquery-3.6.0.min.js"></script>
   <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="animation.js"></script>
   <noscript>Veuillez, s'il vous plaît, activer JavaScript afin de pouvoir bénéficier de toutes les fonctionnalités du
