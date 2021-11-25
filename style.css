@@ -71,9 +71,17 @@ h1 {
 }
 
 @keyframes color {
-  0% {color: #ff7f50;}
-  50% {color: cornflowerblue;}
-  100% {color: #ff6347;}
+  0% {
+    color: #ff7f50;
+  }
+
+  50% {
+    color: cornflowerblue;
+  }
+
+  100% {
+    color: #ff6347;
+  }
 }
 
 .letter {
@@ -85,7 +93,7 @@ h1 {
     transform: translateZ(0px);
     opacity: 1;
   }
-  
+
   32% {
     opacity: 0;
     transform: translateZ(-280px) translateX(200px);
@@ -150,7 +158,8 @@ h3 {
 }
 
 .github,
-.linkedin, .indeed {
+.linkedin,
+.indeed {
   color: rgb(7, 97, 125);
   text-decoration: none;
 }
