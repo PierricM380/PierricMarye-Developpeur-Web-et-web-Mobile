@@ -34,4 +34,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 
-sitemap: https://pierricmaryemoncvenligne.netlify.app/sitemap.xml
+sitemap: https://pierric-marye-developpeur-web-mobile.netlify.app/sitemap.xml
