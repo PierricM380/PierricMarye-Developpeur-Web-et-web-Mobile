@@ -31,7 +31,7 @@
   <meta property="og:type" content="website">
   <meta property="og:description"
     content="Développeur web et web mobile, je crée votre site web et application mobile. Envie d'un site vitrine, d'un site web e-commerce ou même une application sur smartphone... Je suis le développeur qu'il vous faut !">
-    <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
+  <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
 </head>
 
 <body class="container-fluid">
@@ -174,101 +174,114 @@
       <section class="skills card h-100 g-0">
         <h3 class="card-header">Mes compétences</h3>
         <div class="card-body">
-          <!-- Accordion 1 -->
-          <article class="accordion-item" id="accordionExample">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!-- Accordion 1 -->
             <div class="accordion-item">
-              <h4 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
+              <h4 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   Front-end
                 </button>
               </h4>
-            </div>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body ">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <i class="html fab fa-html5 me-2"></i>html5
-                  </li>
-                  <li class="list-group-item">
-                    <i class="css fab fa-css3-alt me-2"></i>css3
-                  </li>
-                  <li class="list-group-item">
-                    <i class="bootstrap fab fa-bootstrap me-2"></i>Bootstrap
-                  </li>
-                  <li class="list-group-item">
-                    <i class="java fab fa-js-square me-2"></i>JavaScript
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fab fa-github me-2"></i>Github
-                  </li>
-                  <li class="list-group-item">
-                    <i class="wordpress fab fa-wordpress me-2"></i>Wordpress
-                  </li>
-                  <li class="list-group-item">
-                    <i class="react fab fa-react me-2"></i>React.js
-                  </li>
-                </ul>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="html fab fa-html5 me-2"></i>
+                      <span>html5</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="css fab fa-css3-alt me-2"></i>
+                      <span>css3</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="bootstrap fab fa-bootstrap me-2"></i>
+                      <span>Bootstrap</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="java fab fa-js-square me-2"></i>
+                      <span>JavaScript</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fab fa-github me-2"></i>
+                      <span>Github</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="wordpress fab fa-wordpress me-2"></i>
+                      <span>Wordpress</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="react fab fa-react me-2"></i>
+                      <span>React.js</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </article>
-          <!-- Accordion 2 -->
-          <article class="accordion-item">
-            <h4 class="accordion-header" id="headingTwo">
-              <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Back-end
-              </button>
-            </h4>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body ">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <i class="php fab fa-php me-2"></i>php
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fab fa-symfony me-2"></i>Symfony
-                  </li>
-                  <li class="list-group-item">
-                    <i class="bdata fas fa-database me-2"></i>Base
-                    de donées
-                  </li>
-                  <li class="list-group-item">
-                    <i class="react fab fa-react me-2"></i> React
-                    Native
-                  </li>
-                </ul>
+            <!-- Accordion 2 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Back-end
+                </button>
+              </h4>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="php fab fa-php me-2"></i>
+                      <span>PHP</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fab fa-symfony me-2"></i>
+                      <span>Symfony</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="bdata fas fa-database me-2"></i>
+                      <span>Base de donées</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="react fab fa-react me-2"></i>
+                      <span>React Native</span>
+                    </li>
+                  </ul>
+
+                </div>
               </div>
             </div>
-          </article>
-          <!-- Accordion 3 -->
-          <article class="accordion-item">
-            <h4 class="accordion-header" id="headingThree">
-              <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Mobile iOS
-              </button>
-            </h4>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body ">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <i class="swift1 fab fa-swift me-2"></i>Langage
-                    Swift
-                  </li>
-                  <li class="list-group-item">
-                    <i class=" swift2 fab fa-swift me-2"></i>SwiftUI
-                  </li>
-                  <li class="list-group-item">
-                    <i class=" swift3 fab fa-swift me-2"></i>UIKit
-                  </li>
-                </ul>
+            <!-- Accordion 3 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Mobile iOS
+                </button>
+              </h4>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="swift1 fab fa-swift me-2"></i>
+                      <span>Swift5</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class=" swift2 fab fa-swift me-2"></i>
+                      <span>SwiftUI</span>
+                    </li>
+                    <li class="list-group-item">
+                      <i class=" swift3 fab fa-swift me-2"></i>
+                      <span>UIKit</span>
+                    </li>
+                  </ul>
+
+                </div>
               </div>
             </div>
-          </article>
+          </div>
         </div>
       </section>
     </div>
@@ -376,7 +389,7 @@
   <script src="JQuery/jquery-3.6.0.min.js"></script>
   <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="animation.js"></script>
+  <script src="js/animation.js"></script>
   <noscript>Veuillez, s'il vous plaît, activer JavaScript afin de pouvoir bénéficier de toutes les fonctionnalités du
     site</noscript>
 </body>
