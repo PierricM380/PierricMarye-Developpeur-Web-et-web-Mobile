@@ -187,6 +187,11 @@ h3 {
 }
 
 /* SKILLS CARD */
+.progress-bar {
+  color: rgb(249, 168, 40);
+  background-color: rgb(7, 97, 125);
+}
+
 .list-group i {
   font-size: 20px;
   margin-right: 5px;
