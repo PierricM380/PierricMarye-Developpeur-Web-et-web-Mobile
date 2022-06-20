@@ -118,7 +118,7 @@ main {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: bold;
   color: rgb(249, 168, 40);
 }
@@ -140,20 +140,25 @@ h3 {
 }
 
 .profile .btn {
-  text-align: center;
   background-color: rgb(249, 168, 40);
-}
-
-.profile .btn:hover {
   box-shadow: 0 0 5px rgb(46, 56, 63);
 }
 
 /* CONTACT CARD */
-.contact .btn {
-  background-color: rgb(249, 168, 40);
+.contact .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contact .btn:hover {
+.constact .list-group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .btn {
+  background-color: rgb(249, 168, 40);
   box-shadow: 0 0 5px rgb(46, 56, 63);
 }
 
@@ -309,7 +314,7 @@ footer {
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   h5 {
