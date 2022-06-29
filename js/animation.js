@@ -1,14 +1,3 @@
-// Scroll Event Navigation bar
-const nav = document.querySelector("nav");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY < 120) {
-    nav.style.top = "0";
-  } else {
-    nav.style.top = "-140px";
-  }
-});
-
 // Header animation
 const target = document.getElementById("target");
 let array = ["Web", "Mobile", "iOS"];
