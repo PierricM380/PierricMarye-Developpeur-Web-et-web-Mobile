@@ -11,33 +11,32 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
-  background-color: rgb(236, 236, 235);
+  background-color: rgb(252, 251, 232);
+  position: relative;
   overflow-x: hidden;
 }
 
 /* NAVIGATION */
 nav {
-  background-color: rgb(46, 56, 63);
-  box-shadow: 0 5px 10px rgb(46, 56, 63);
+  background-color: rgb(161, 181, 210);
   transition: 0.5s;
+}
+
+nav span {
+  font-family: cursive;
+  color: rgb(252, 251, 232);
 }
 
 .profile-picture {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 10px;
-}
-
-nav span {
-  color: rgb(249, 168, 40);
 }
 
 /* HEADER */
 header {
-  position: relative;
-  top: 125px;
   height: 200px;
   display: flex;
   align-items: center;
@@ -50,7 +49,7 @@ h1 {
   font-size: 3.5rem;
   font-weight: bold;
   font-style: italic;
-  color: rgb(46, 56, 63);
+  color: rgb(161, 181, 210);
 }
 
 /* Animation text */
@@ -100,27 +99,27 @@ h1 {
   }
 }
 
-/* MAIN */
-main {
-  position: relative;
-  top: 125px;
-  display: flex;
-  justify-content: center;
+/* ASIDE */
+.menu {
+  position: sticky;
+  top: 15px;
 }
 
-.card {
-  box-shadow: 0 0 10px rgb(46, 56, 63);
+/* MAIN */
+main {
+  padding-bottom: 10px;
 }
 
 .card-header {
-  background-color: rgb(7, 97, 125);
+  background-color: rgb(13, 110, 253);
   text-align: center;
 }
 
 h3 {
+  font-family: limelight;
   font-size: 1.9rem;
   font-weight: bold;
-  color: rgb(249, 168, 40);
+  color: rgb(252, 251, 232);
 }
 
 .card-body {
@@ -129,43 +128,47 @@ h3 {
 
 
 /* PROFILE CARD */
-.profile .card-text>a {
-  color: rgb(7, 97, 125);
+.profile a {
+  color: rgb(149, 125, 91);
   font-weight: bold;
   text-decoration: none;
 }
 
-.profile .card-text>a:hover {
+.profile a:hover {
+  color: rgb(149, 125, 91);
   text-decoration: underline;
 }
 
 .profile .btn {
-  background-color: rgb(249, 168, 40);
-  box-shadow: 0 0 5px rgb(46, 56, 63);
+  font-weight: normal;
+  color: rgb(149, 125, 91);
+  background-color: rgb(241, 232, 131);
+  text-decoration: none;
 }
 
-/* CONTACT CARD */
-.contact .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.profile .btn:hover {
+  background-color: rgb(239, 233, 169);
+  text-decoration: none;
 }
 
-.constact .list-group-item {
-  display: flex;
-  justify-content: center;
+.profile .card-footer {
+  background-color: rgb(222, 229, 239);
+}
+
+.profile .card-footer ul {
+  list-style-type: none;
+}
+
+.profile .card-footer li {
+  display: inline;
   align-items: center;
+  margin: 20px;
 }
 
-.contact .btn {
-  background-color: rgb(249, 168, 40);
-  box-shadow: 0 0 5px rgb(46, 56, 63);
-}
-
-.github,
-.linkedin,
-.indeed {
-  color: rgb(7, 97, 125);
+.profile .card-footer .github,
+.profile .card-footer .linkedin,
+.profile .card-footer .indeed {
+  color: rgb(13, 110, 253);
   text-decoration: none;
 }
 
@@ -174,129 +177,131 @@ h3 {
   height: auto;
 }
 
-.poi {
-  color: rgb(247, 56, 89);
-}
-
 /* ACHIEVEMENTS CARD */
 .achievements img:hover {
   opacity: 0.5;
 }
 
 .achievements h5 {
-  color: white;
+  color: rgb(252, 251, 232);
 }
 
-.achievements span {
-  color: rgb(247, 56, 89);
+.achievements p {
+  color: rgb(252, 251, 232);
 }
 
 /* SKILLS CARD */
-.progress-bar {
-  color: rgb(249, 168, 40);
-  background-color: rgb(7, 97, 125);
+.skills .progress {
+  background-color: rgb(222, 229, 239),
 }
 
-.list-group i {
+.skills .progress-bar {
+  color: rgb(252, 251, 232);
+  background-color: rgb(161, 181, 210);
+}
+
+.skills .list-group i {
   font-size: 20px;
   margin-right: 5px;
 }
 
-.list-group-item {
+.skills .list-group-item {
   display: flex;
   align-items: center;
 }
 
 .skills .accordion-button {
-  color: rgb(7, 97, 125);
+  color: rgb(149, 125, 91);
 }
 
-.accordion-body i {
+.skills .accordion-body i {
   font-size: 35px;
 }
 
-.html {
+.skills .html {
   color: #ff7f50;
 }
 
-.css {
+.skills .css {
   color: cornflowerblue;
 }
 
-.bootstrap {
+.skills .bootstrap {
   color: violet;
 }
 
-.java {
+.skills .java {
   color: rgb(195, 205, 50);
 }
 
-.wordpress {
+.skills .wordpress {
   color: #483d8b;
 }
 
-.react {
+.skills .react {
   color: #8a2be2;
 }
 
-.php {
+.skills .php {
   color: #0000ff;
 }
 
-.bdata {
+.skills .bdata {
   color: #a9a9a9;
 }
 
-.swift1 {
+.skills .swift1 {
   color: #ff6347;
 }
 
-.swift2 {
+.skills .swift2 {
   color: #6a5acd;
 }
 
-.swift3 {
+.skills .swift3 {
   color: #0000cd;
 }
 
 /* CURSES CARD */
-h5 {
+.curses h5 {
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgb(249, 168, 40);
+  color: rgb(203, 189, 170);
 }
 
 .curses .nav-link {
-  color: rgb(7, 97, 125);
+  color: rgb(149, 125, 91);
 }
 
 .curses a {
   font-weight: bold;
-  color: rgb(7, 97, 125);
+  color: rgb(149, 125, 91);
   text-decoration: none;
 }
 
 article a:hover {
-  color: rgb(7, 97, 125);
+  color: rgb(149, 125, 91);
   text-decoration: underline;
 }
 
 /* FOOTER */
 footer {
-  position: relative;
-  top: 150px;
   height: 100px;
   display: flex;
   text-align: center;
   align-items: center;
   font-family: limelight;
-  background-color: rgb(46, 56, 63);
-  color: rgb(249, 168, 40);
+  color: rgb(252, 251, 232);
+  background-color: rgb(161, 181, 210);
 }
 
 @media screen and (max-width: 992px) {
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+  }
+
   header {
-    top: 75px;
     height: 125px;
   }
 
@@ -309,8 +314,8 @@ footer {
     width: 125px;
   }
 
-  main {
-    top: 70px;
+  aside {
+    display: none;
   }
 
   h3 {
@@ -321,26 +326,21 @@ footer {
     font-size: 1rem;
   }
 
-  .clickable_img {
-    height: 100px;
+  .profile .card-footer li {
+    display: block;
+    align-items: center;
+    margin: 5px;
   }
 
-  .profile-picture {
-    width: 50px;
-    height: 50px;
+  .clickable_img {
+    height: 100px;
   }
 
   .card-body {
     text-align: center;
   }
 
-  .map {
-    box-shadow: 0px -2px 5px;
-  }
-
   footer {
-    position: relative;
-    top: 85px;
     height: 75px;
   }
 }
