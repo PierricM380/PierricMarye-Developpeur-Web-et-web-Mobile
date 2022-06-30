@@ -1,6 +1,6 @@
 // Header animation
 const target = document.getElementById("target");
-let array = ["Web", "Mobile", "iOS"];
+let array = ["Full-Stack", "Mobile", "iOS"];
 let wordIndex = 0;
 let letterIndex = 0;
 
@@ -16,7 +16,7 @@ const createLetter = () => {
 
   setTimeout(() => {
     letter.remove();
-  }, 3000);
+  }, 3500);
 };
 
 // Loop function to appear and desappear each letters
@@ -35,9 +35,9 @@ const loop = () => {
       wordIndex++;
       setTimeout(() => {
         loop();
-      }, 3000);
+      }, 3500);
     }
-  }, 80);
+  }, 100);
 };
 loop();
 
