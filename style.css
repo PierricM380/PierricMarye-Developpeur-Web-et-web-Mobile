@@ -15,7 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-/* NAVIGATION */
 nav {
   background-color: rgb(161, 181, 210);
   transition: 0.5s;
@@ -34,7 +33,6 @@ nav span {
   margin-right: 10px;
 }
 
-/* HEADER */
 header {
   position: relative;
   top: 125px;
@@ -45,7 +43,8 @@ header {
   text-align: center;
 }
 
-h1 {
+header h1,
+header h2 {
   font-family: Fruktur;
   font-size: 3.5rem;
   font-weight: bold;
@@ -62,7 +61,21 @@ h1 {
   color: rgb(149, 125, 91);
 }
 
-/* Animation text */
+.skills h3,
+.curses h3 {
+  font-family: limelight;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: rgb(252, 251, 232)
+}
+
+.profile h4,
+.skills h4,
+.curses h4,
+.achievements h4 {
+  font-size: 1rem;
+}
+
 #target {
   display: flex;
   width: 175px;
@@ -109,12 +122,12 @@ h1 {
   }
 }
 
-/* MAIN */
 main {
   position: relative;
   top: 125px;
 }
-.card-header  {
+
+.card-header {
   background-color: rgb(203, 189, 170);
   text-align: center;
 }
@@ -154,14 +167,8 @@ main {
   margin-top: 25px;
 }
 
-.profile .contact ul {
-  list-style-type: none;
-}
-
-.profile .contact li {
-  display: inline;
-  align-items: center;
-  margin: 20px;
+.profile .contact i, .profile .contact a {
+  margin-right: 10px;
 }
 
 .profile .contact .github,
@@ -176,25 +183,16 @@ main {
   height: auto;
 }
 
-/* ACHIEVEMENTS CARD */
 .achievements img:hover {
   opacity: 0.5;
 }
 
-.achievements h5 {
+.achievements h4 {
   color: rgb(252, 251, 232);
 }
 
 .achievements p {
   color: rgb(252, 251, 232);
-}
-
-/* SKILLS CARD */
-.skills h3, .curses h3 {
-  font-family: limelight;
-  font-size: 1.9rem;
-  font-weight: bold;
-  color: rgb(252, 251, 232)
 }
 
 .skills .progress {
@@ -269,7 +267,7 @@ main {
 }
 
 /* CURSES CARD */
-.curses h5 {
+.curses h4 {
   font-size: 1.2rem;
   font-weight: bold;
   color: rgb(203, 189, 170);
@@ -308,14 +306,18 @@ footer {
   .profile-picture {
     width: 50px;
     height: 50px;
+    margin-left: 5px;
+    margin-right: 2px;
   }
 
   header {
     height: 125px;
+    top: 75px;
   }
 
-  h1 {
-    font-size: 1.7rem;
+  header h1,
+  header h2 {
+    font-size: 2rem;
   }
 
   #target {
@@ -323,22 +325,29 @@ footer {
     width: 125px;
   }
 
-  h3 {
-    font-size: 1.2rem;
+  main {
+    top: 50px;
   }
 
-  h5 {
-    font-size: 1rem;
+  .profile h3,
+  .skills h3,
+  .curses h3,
+  .achievements h3 {
+    font-size: 1.5rem;
+    text-align: center;
   }
 
-  .profile .card-footer li {
+  .profile h4,
+  .skills h4,
+  .curses h4,
+  .achievements h4 {
+    font-size: 1.1rem;
+  }
+
+  .profile .contact li {
     display: block;
-    align-items: center;
+    justify-content: center;
     margin: 5px;
-  }
-
-  .clickable_img {
-    height: 100px;
   }
 
   .profile p {
@@ -349,7 +358,12 @@ footer {
     justify-content: center;
   }
 
+  .profile .contact i, .profile .contact a {
+    margin-right: 5px;
+  }
+
   footer {
     height: 75px;
+    top: 75px;
   }
 }
