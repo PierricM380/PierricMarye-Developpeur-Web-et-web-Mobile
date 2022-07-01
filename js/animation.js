@@ -1,6 +1,6 @@
 // Header animation
 const target = document.getElementById("target");
-let array = ["Web", "Mobile", "iOS"];
+let array = ["Web", "iOS"];
 let wordIndex = 0;
 let letterIndex = 0;
 
@@ -39,6 +39,7 @@ const loop = () => {
     }
   }, 100);
 };
+
 loop();
 
 // animJS animation

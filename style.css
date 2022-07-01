@@ -25,7 +25,7 @@ nav span {
   color: rgb(252, 251, 232);
 }
 
-.profile-picture {
+nav .profile-picture {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -43,6 +43,12 @@ header {
   text-align: center;
 }
 
+header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header h1,
 header h2 {
   font-family: Fruktur;
@@ -53,11 +59,10 @@ header h2 {
 }
 
 .profile h3,
-.achievements h3,
-.curses h3 {
+.achievements h3{
   font-family: limelight;
   font-size: 1.9rem;
-  font-weight: bold;
+  text-decoration: underline;
   color: rgb(149, 125, 91);
 }
 
@@ -65,7 +70,6 @@ header h2 {
 .curses h3 {
   font-family: limelight;
   font-size: 1.9rem;
-  font-weight: bold;
   color: rgb(252, 251, 232)
 }
 
@@ -78,14 +82,14 @@ header h2 {
 
 #target {
   display: flex;
-  width: 175px;
+  width: 170px;
   text-align: left;
   font-family: Fruktur;
   font-weight: bold;
   font-size: 3.5rem;
   animation: color 30s alternate infinite;
   perspective: 200px;
-  transform: translateX(26px);
+  transform: translateX(25px);
 }
 
 .word {
@@ -107,7 +111,7 @@ header h2 {
 }
 
 .letter {
-  transform: translateZ(200px);
+  transform: translateZ(175px);
 }
 
 @keyframes anim {
@@ -167,14 +171,14 @@ main {
   margin-top: 25px;
 }
 
-.profile .contact i, .profile .contact a {
+.profile .contact i {
   margin-right: 10px;
 }
 
 .profile .contact .github,
 .profile .contact .linkedin,
 .profile .contact .indeed {
-  color: rgb(13, 110, 253);
+  color: rgb(161, 181, 210);
   text-decoration: none;
 }
 
@@ -270,7 +274,7 @@ main {
 .curses h4 {
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgb(203, 189, 170);
+  color: rgb(149, 125, 91);
 }
 
 .curses .nav-link {
@@ -279,12 +283,12 @@ main {
 
 .curses a {
   font-weight: bold;
-  color: rgb(149, 125, 91);
+  color: rgb(203, 189, 170);
   text-decoration: none;
 }
 
 article a:hover {
-  color: rgb(149, 125, 91);
+  color: rgb(203, 189, 170);
   text-decoration: underline;
 }
 
@@ -303,30 +307,33 @@ footer {
 
 /* MOBILE SIZE */
 @media screen and (max-width: 992px) {
-  .profile-picture {
+  nav .profile-picture {
     width: 50px;
     height: 50px;
     margin-left: 5px;
     margin-right: 2px;
   }
 
-  header {
-    height: 125px;
-    top: 75px;
+  nav span {
+    font-size: 0.9rem;
   }
 
-  header h1,
-  header h2 {
+  header {
+    height: 125px;
+    top: 100px;
+  }
+
+  header h1 {
     font-size: 2rem;
   }
 
   #target {
-    font-size: 1.7rem;
-    width: 125px;
+    font-size: 2rem;
+    width: 120px;
   }
 
   main {
-    top: 50px;
+    top: 100px;
   }
 
   .profile h3,
@@ -344,12 +351,6 @@ footer {
     font-size: 1.1rem;
   }
 
-  .profile .contact li {
-    display: block;
-    justify-content: center;
-    margin: 5px;
-  }
-
   .profile p {
     text-align: center;
   }
@@ -358,12 +359,8 @@ footer {
     justify-content: center;
   }
 
-  .profile .contact i, .profile .contact a {
-    margin-right: 5px;
-  }
-
   footer {
     height: 75px;
-    top: 75px;
+    top: 125px;
   }
 }
