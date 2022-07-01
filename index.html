@@ -35,9 +35,9 @@
   <meta property="og:image" content="ressources/pictures/profilPicture.jpg">
 </head>
 
-<body data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
+<body class="container-fluid">
   <!-- NAVIGATION BAR -->
-  <nav class="row navbar navbar-dark shadow">
+  <nav class="row navbar navbar-dark shadow fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand">
         <img class="profile-picture img-fluid img-thumbnail" src="ressources/pictures/profilPicture.jpg"
@@ -54,378 +54,363 @@
     </section>
   </header>
 
-  <div class="container-fluid my-2">
-    <section class="row d-flex justify-content-center g-3">
-      <aside class="col-lg-3" id="myScrollspy">
-        <div class="menu list-group shadow">
-          <a class="list-group-item list-group-item-action active" href="#card-profile">Profile</a>
-          <a class="list-group-item list-group-item-action" href="#card-achievements">Portfolio</a>
-          <a class="list-group-item list-group-item-action" href="#card-skills">Compétences</a>
-          <a class="list-group-item list-group-item-action" href="#card-curses">Parcours</a>
-        </div>
-      </aside>
-      <main class="col-lg-6">
-        <!-- PROFILE -->
-        <div id="card-profile" data-aos="zoom-in">
-          <article class="profile card g-0 shadow">
-            <h3 class="card-header">A mon propos</h3>
-            <div class="card-body">
-              <p class="card-text">
-                Passionné par la réalisation et le développement d'application web ainsi que mobile; j'ai donc suivi une
-                formation, auprès de l'organisme <a href="https://www.studi.fr" target="_blank"><em>Studi</em></a>, de
-                développeur full-stack et mobile iOS.
-              </p>
-              <p>Aujourd'hui je souhaite intégrer une entreprise dynamique et jeune, aussi je serai ravi de rejoindre
-                votre équipe en tant que développeur. Fort de ma passion pour ce domaine, je suis très investi dans
-                mon travail, où je prends grand plaisir à exercer, aussi cet engouement se reflète largement dans la
-                qualité de mon travail.</p>
-              <p>Très à l'aise dans mon métier, je peux développer des applications modernes et tendances ainsi qu'en
-                assurer la maintenance.</p>
+  <main>
+    <div class="row g-5 d-flex justify-content-center pb-5">
+      <!-- PROFILE -->
+      <section class="col-12 col-lg-5 profile">
+        <article>
+          <h3>A mon propos</h3>
+          <div>
+            <p>
+              Passionné par la réalisation et le développement d'application web ainsi que mobile; j'ai donc suivi une
+              formation, auprès de l'organisme <a href="https://www.studi.fr" target="_blank"><em>Studi</em></a>, de
+              développeur full-stack et mobile iOS.
+            </p>
+            <p>Aujourd'hui je souhaite intégrer une entreprise dynamique et jeune, aussi je serai ravi de rejoindre
+              votre équipe en tant que développeur. Fort de ma passion pour ce domaine, je suis très investi dans
+              mon travail, où je prends grand plaisir à exercer, aussi cet engouement se reflète largement dans la
+              qualité de mon travail.</p>
+            <p>Très à l'aise dans mon métier, je peux développer des applications modernes et tendances ainsi qu'en
+              assurer la maintenance.</p>
+            <p>
               <a href="ressources/datas/CV-Pierric.pdf" target="_blank" class="btn shadow">Télécharger
                 mon
                 CV</a>
-            </div>
-            <div class="card-footer d-flex justify-content-center align-items-center">
-              <ul>
-                <li>
-                  <i class="fas fa-phone-alt"><a href="tel:06 11 31 45 11" role="button"> : Téléphone</a></i>
-                </li>
-                <li>
-                  <i class="fas fa-paper-plane"><a href="mailto:pierric.marye380@gmail.com" role="button"> :
-                      email</a></i>
-                <li>
-                  <a class="github me-1" href="https://github.com/PierricM380" title="Voir ma page GitHub"
-                    target="_blank"><i class="fab fa-github"></i></a>
-                  <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" title="Voir ma page Linkin"
-                    target="_blank"><i class="fab fa-linkedin"></i></a>
-                  <a href="https://my.indeed.com/p/pierricm-bbkivqd/profile" title="Voir ma page Indeed"
-                    target="_blank"><img class="indeed" src="ressources/pictures/indeed-logo.svg" alt="Logo indeed"></a>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <hr>
-        <!-- CARD ACHIEVEMENTS -->
-        <div id="card-achievements" data-aos="zoom-in">
-          <article class="achievements card g-O shadow">
-            <h3 class="card-header">Mes projets</h3>
-            <div class="card-body">
-              <!-- Carousel -->
-              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                    aria-label="Slide 6"></button>
-                </div>
-                <div class="carousel-inner">
-                  <!-- Easy recipes of Gigi -->
-                  <div class="carousel-item active">
-                    <a href="https://lesrecettesfacilesdegigi.netlify.app" title="Visiter le site" target="_blank">
-                      <img src="ressources/pictures/easyRecipe.png" class="img-fluid d-block w-100"
-                        alt="légumes méditerranéen sur une table en bois">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Les recettes faciles de Gigi</h5>
-                      <p>Des idées simples et rapides à réaliser.</p>
-                    </div>
-                  </div>
-                  <!-- The Hundred Dice -->
-                  <div class="carousel-item">
-                    <a href="https://the-hundred-dice-game.netlify.app" title="Visiter le site" target="_blank">
-                      <img src="ressources/pictures/theHundredDice.png" class="d-block w-100"
-                        alt="dés sur un plateau de jeu">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Le Dé de 100</h5>
-                      <p>Le premier qui arrive à 100</p>
-                    </div>
-                  </div>
-                  <!-- Easy Recipes iOS -->
-                  <div class="carousel-item">
-                    <a href="https://www.linkedin.com/posts/pierricmarye_nouvel-interface-design-de-lapplication-activity-6947909629980913664-Zo0o?utm_source=linkedin_share&utm_medium=member_desktop_web"
-                      title="Visiter le site" target="_blank">
-                      <img src="ressources/pictures/RecetteFaciles.png" class="img-fluid d-block w-100"
-                        alt="Application Apple de recettes faciles">
-                    </a>
-                  </div>
-                  <!-- Yoanna resume -->
-                  <div class="carousel-item">
-                    <a href="https://yoanna-riccio-marye-secretaire-medicale.netlify.app/" title="Visiter le site"
-                      target="_blank">
-                      <img src="ressources/pictures/yoannaResume.png" class="d-block w-100"
-                        alt="CV en ligne de Yoanna Riccio-Marye">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                  </div>
-                  <!-- MPMeteo -->
-                  <div class="carousel-item">
-                    <a href="https://www.linkedin.com/posts/pierricmarye_my-second-ios-work-there-are-still-improvements-activity-6899788320721702912-wt2W?utm_source=linkedin_share&utm_medium=member_desktop_web"
-                      title="Visiter le site" target="_blank">
-                      <img src="ressources/pictures/MPMeteo.png" class="d-block w-100"
-                        alt="Application mobila Apple météo">
-                    </a>
-                  </div>
-                  <!-- TouComptage -->
-                  <div class="carousel-item">
-                    <a href="https://apps.apple.com/fr/app/toucomptage/id1623214396?l=fr" title="Visiter le site"
-                      target="_blank">
-                      <video class="card-img-top" muted autoplay playsinline loop>
-                        <source src="ressources/videos/AppTouComptage.mov" type="video/mov">
-                        <source src="ressources/videos/AppTouComptage.mp4" type="video/mp4">
-                        <source src="ressources/videos/AppTouComptage.webm" type="video/webm">
-                        La vidéo ne peut être lu avec votre navigateur.
-                      </video>
-                    </a>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </article>
-        </div>
-        <hr>
-        <!-- CARD SKILLS -->
-        <div id="card-skills" data-aos="zoom-in">
-          <article class="skills card g-0 shadow">
-            <h3 class="card-header">Mes compétences acquises</h3>
-            <div class="card-body">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <!-- Accordion 1 -->
-                <div class="accordion-item">
-                  <h4 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Front-end
-                    </button>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                        aria-valuemin="0" aria-valuemax="100">90%</div>
-                    </div>
-                  </h4>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                          <i class="html fab fa-html5 me-2"></i>
-                          <span>html5</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="css fab fa-css3-alt me-2"></i>
-                          <span>css3</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="bootstrap fab fa-bootstrap me-2"></i>
-                          <span>Bootstrap</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="java fab fa-js-square me-2"></i>
-                          <span>JavaScript</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="fab fa-github me-2"></i>
-                          <span>Github</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="wordpress fab fa-wordpress me-2"></i>
-                          <span>Wordpress</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="react fab fa-react me-2"></i>
-                          <span>React.js</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- Accordion 2 -->
-                <div class="accordion-item">
-                  <h4 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Back-end
-                    </button>
-                  </h4>
+            </p>
+          </div>
+          <div class="contact">
+            <ul>
+              <li>
+                <i class="fas fa-phone-alt"><a href="tel:06 11 31 45 11" role="button"> : Téléphone</a></i>
+              </li>
+              <li>
+                <i class="fas fa-paper-plane"><a href="mailto:pierric.marye380@gmail.com" role="button"> :
+                    email</a></i>
+              <li>
+                <a class="github me-1" href="https://github.com/PierricM380" title="Voir ma page GitHub"
+                  target="_blank"><i class="fab fa-github"></i></a>
+                <a class="linkedin ms-1" href="https://www.linkedin.com/in/pierricmarye" title="Voir ma page Linkin"
+                  target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://my.indeed.com/p/pierricm-bbkivqd/profile" title="Voir ma page Indeed"
+                  target="_blank"><img class="indeed" src="ressources/pictures/indeed-logo.svg" alt="Logo indeed"></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <!-- CARD SKILLS -->
+      <section class="col-12 col-lg-5 skills">
+        <article class="card g-0 shadow">
+          <h3 class="card-header">Mes compétences acquises</h3>
+          <div class="card-body">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <!-- Accordion 1 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Front-end
+                  </button>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="5" aria-valuemin="0"
-                      aria-valuemax="100">60%</div>
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                      aria-valuemin="0" aria-valuemax="100">90%</div>
                   </div>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                          <i class="php fab fa-php me-2"></i>
-                          <span>PHP</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="fab fa-symfony me-2"></i>
-                          <span>Symfony</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="bdata fas fa-database me-2"></i>
-                          <span>Base de donées</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="react fab fa-react me-2"></i>
-                          <span>React Native</span>
-                        </li>
-                      </ul>
-
-                    </div>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <i class="html fab fa-html5 me-2"></i>
+                        <span>html5</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="css fab fa-css3-alt me-2"></i>
+                        <span>css3</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bootstrap fab fa-bootstrap me-2"></i>
+                        <span>Bootstrap</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="java fab fa-js-square me-2"></i>
+                        <span>JavaScript</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fab fa-github me-2"></i>
+                        <span>Github</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="wordpress fab fa-wordpress me-2"></i>
+                        <span>Wordpress</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="react fab fa-react me-2"></i>
+                        <span>React.js</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <!-- Accordion 3 -->
-                <div class="accordion-item">
-                  <h4 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Mobile iOS
-                    </button>
-                  </h4>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                      aria-valuemin="0" aria-valuemax="100">85%</div>
-                  </div>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                          <i class="swift1 fab fa-swift me-2"></i>
-                          <span>Swift5</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class=" swift2 fab fa-swift me-2"></i>
-                          <span>SwiftUI</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class=" swift3 fab fa-swift me-2"></i>
-                          <span>UIKit</span>
-                        </li>
-                      </ul>
+              </div>
+              <!-- Accordion 2 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Back-end
+                  </button>
+                </h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="5" aria-valuemin="0"
+                    aria-valuemax="100">60%</div>
+                </div>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <i class="php fab fa-php me-2"></i>
+                        <span>PHP</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fab fa-symfony me-2"></i>
+                        <span>Symfony</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bdata fas fa-database me-2"></i>
+                        <span>Base de donées</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class="react fab fa-react me-2"></i>
+                        <span>React Native</span>
+                      </li>
+                    </ul>
 
-                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion 3 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Mobile iOS
+                  </button>
+                </h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                    aria-valuemax="100">85%</div>
+                </div>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <i class="swift1 fab fa-swift me-2"></i>
+                        <span>Swift5</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class=" swift2 fab fa-swift me-2"></i>
+                        <span>SwiftUI</span>
+                      </li>
+                      <li class="list-group-item">
+                        <i class=" swift3 fab fa-swift me-2"></i>
+                        <span>UIKit</span>
+                      </li>
+                    </ul>
+
                   </div>
                 </div>
               </div>
             </div>
-          </article>
-        </div>
-        <hr>
-        <!-- CARD CURSES -->
-        <div id="card-curses" data-aos="zoom-in">
-          <article class="curses card g-0 shadow">
-            <h3 class="card-header">Mon parcours</h3>
-            <!-- Tab bar -->
-            <div class="card-body">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
-                    type="button" role="tab" aria-controls="experiences" aria-selected="true">Expériences</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations"
-                    type="button" role="tab" aria-controls="formations" aria-selected="false">Formations</button>
-                </li>
-              </ul>
-              <div class="tab-content mt-3 p-3" id="myTabContent">
-                <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
-                  <!-- le contenu expériences -->
-                  <article>
-                    <h5>2017 - 2021</h5>
-                    <p>
-                      <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
-                      Agent de location et préparateur de véhicules.
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2011 - 2017</h5>
-                    <p>
-                      <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
-                        E.LECLERC Perpignan</a>
-                      - Employé commercial (vendeur multimedia,
-                      service après-vente et agent de location véhicules).
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2004 - 2011</h5>
-                    <p>
-                      <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
-                      <a href="https://www.reserveafricainesigean.fr"> environnementaux</a> et
-                      <a href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a>
-                      -
-                      agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.
-                    </p>
-                  </article>
-                </div>
-                <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
-                  <!-- le contenu formations -->
-                  <article>
-                    <h5>2021 -</h5>
-                    <p>
-                      Formation STUDI -
-                      <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
-                        target="_blank">Développeur Mobile iOS</a>
-                      , titre RNCP BAC+2.
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2020</h5>
-                    <p>
-                      Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2006 - 2010</h5>
-                    <p>
-                      Formation bagage des oiseaux -
-                      <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
-                      , Muséum National d’Histoire Naturel.
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2002 - 2004</h5>
-                    <p>
-                      D.U.T. Gestion Logistique & Transport -
-                      <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
-                        I.U.T. de Perpignan.</a>
-                    </p>
-                  </article>
-                  <article>
-                    <h5>2002</h5>
-                    <p>Baccalauréat Scientifique -
-                      <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
-                    </p>
-                  </article>
-                </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <!-- CARD CURSES -->
+      <section class="col-12 col-lg-5 curses">
+        <article class="card shadow g-0">
+          <h3 class="card-header">Mon parcours</h3>
+          <!-- Tab bar -->
+          <div class="card-body">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#experiences"
+                  type="button" role="tab" aria-controls="experiences" aria-selected="true">Expériences</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#formations"
+                  type="button" role="tab" aria-controls="formations" aria-selected="false">Formations</button>
+              </li>
+            </ul>
+            <div class="tab-content mt-3 p-3" id="myTabContent">
+              <div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
+                <!-- le contenu expériences -->
+                <article>
+                  <h5>2017 - 2021</h5>
+                  <p>
+                    <a href="https://www.rentacar.fr" target="_blank">RENTACAR Perpignan</a> -
+                    Agent de location et préparateur de véhicules.
+                  </p>
+                </article>
+                <article>
+                  <h5>2011 - 2017</h5>
+                  <p>
+                    <a href="https://www.e.leclerc/mag/e-leclerc-espace-polygone" target="_blank">Centre commercial
+                      E.LECLERC Perpignan</a>
+                    - Employé commercial (vendeur multimedia,
+                    service après-vente et agent de location véhicules).
+                  </p>
+                </article>
+                <article>
+                  <h5>2004 - 2011</h5>
+                  <p>
+                    <a href="https://www.canetenroussillon.fr">Divers emplois communaux,</a>
+                    <a href="https://www.reserveafricainesigean.fr"> environnementaux</a> et
+                    <a href="https://fr-fr.facebook.com/asso.charles.flahault/"> associatifs</a>
+                    -
+                    agent d'entretien des espaces verts, aide soigneur animalier et sensibilisation à l'environnement.
+                  </p>
+                </article>
+              </div>
+              <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="profile-tab">
+                <!-- le contenu formations -->
+                <article>
+                  <h5>2021 -</h5>
+                  <p>
+                    Formation STUDI -
+                    <a href="https://www.studi.fr/formation/code-developpement/graduate-developpeur-ios"
+                      target="_blank">Développeur Mobile iOS</a>
+                    , titre RNCP BAC+2.
+                  </p>
+                </article>
+                <article>
+                  <h5>2020</h5>
+                  <p>
+                    Initiation en autodidacte aux langages de programmation - HTML5, CSS3 et Swift5.
+                  </p>
+                </article>
+                <article>
+                  <h5>2006 - 2010</h5>
+                  <p>
+                    Formation bagage des oiseaux -
+                    <a href="https://crbpo.mnhn.fr" target="_blank">C.R.B.P.O</a>
+                    , Muséum National d’Histoire Naturel.
+                  </p>
+                </article>
+                <article>
+                  <h5>2002 - 2004</h5>
+                  <p>
+                    D.U.T. Gestion Logistique & Transport -
+                    <a href="https://iut.univ-perp.fr/fr/formations/departement-de-gestion-logistique-et-transport">
+                      I.U.T. de Perpignan.</a>
+                  </p>
+                </article>
+                <article>
+                  <h5>2002</h5>
+                  <p>Baccalauréat Scientifique -
+                    <a href="https://pablo-picasso.mon-ent-occitanie.fr" target="_blank">Lycée Pablo Picasso.</a>
+                  </p>
+                </article>
               </div>
             </div>
-          </article>
-        </div>
-      </main>
-    </section>
-  </div>
+          </div>
+        </article>
+      </section>
+      <!-- CARD ACHIEVEMENTS -->
+      <section class="col-12 col-lg-5 achievements">
+        <article>
+          <h3>Portfolio</h3>
+          <!-- Carousel -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- Easy recipes of Gigi -->
+              <div class="carousel-item active">
+                <a href="https://lesrecettesfacilesdegigi.netlify.app" title="Visiter le site" target="_blank">
+                  <img src="ressources/pictures/easyRecipe.png" class="img-fluid d-block w-100"
+                    alt="légumes méditerranéen sur une table en bois">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Les recettes faciles de Gigi</h5>
+                  <p>Des idées simples et rapides à réaliser.</p>
+                </div>
+              </div>
+              <!-- The Hundred Dice -->
+              <div class="carousel-item">
+                <a href="https://the-hundred-dice-game.netlify.app" title="Visiter le site" target="_blank">
+                  <img src="ressources/pictures/theHundredDice.png" class="d-block w-100"
+                    alt="dés sur un plateau de jeu">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Le Dé de 100</h5>
+                  <p>Le premier qui arrive à 100</p>
+                </div>
+              </div>
+              <!-- Easy Recipes iOS -->
+              <div class="carousel-item">
+                <a href="https://www.linkedin.com/posts/pierricmarye_nouvel-interface-design-de-lapplication-activity-6947909629980913664-Zo0o?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                  title="Visiter le site" target="_blank">
+                  <img src="ressources/pictures/RecetteFaciles.png" class="img-fluid d-block w-100"
+                    alt="Application Apple de recettes faciles">
+                </a>
+              </div>
+              <!-- Yoanna resume -->
+              <div class="carousel-item">
+                <a href="https://yoanna-riccio-marye-secretaire-medicale.netlify.app/" title="Visiter le site"
+                  target="_blank">
+                  <img src="ressources/pictures/yoannaResume.png" class="d-block w-100"
+                    alt="CV en ligne de Yoanna Riccio-Marye">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <!-- MPMeteo -->
+              <div class="carousel-item">
+                <a href="https://www.linkedin.com/posts/pierricmarye_my-second-ios-work-there-are-still-improvements-activity-6899788320721702912-wt2W?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                  title="Visiter le site" target="_blank">
+                  <img src="ressources/pictures/MPMeteo.png" class="d-block w-100" alt="Application mobile Apple météo">
+                </a>
+              </div>
+              <!-- TouComptage -->
+              <div class="carousel-item">
+                <a href="https://apps.apple.com/fr/app/toucomptage/id1623214396?l=fr" title="Visiter le site"
+                  target="_blank">
+                  <img src="ressources/pictures/TouComptageCover.png" class="d-block w-100"
+                    alt="plaquette de présentation d'une application de comptage">
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
 
   <!-- FOOTER -->
   <footer class="row">

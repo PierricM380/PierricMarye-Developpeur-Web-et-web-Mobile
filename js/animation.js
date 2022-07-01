@@ -1,6 +1,6 @@
 // Header animation
 const target = document.getElementById("target");
-let array = ["Full-Stack", "Mobile", "iOS"];
+let array = ["Web", "Mobile", "iOS"];
 let wordIndex = 0;
 let letterIndex = 0;
 
