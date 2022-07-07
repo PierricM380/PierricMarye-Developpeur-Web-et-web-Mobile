@@ -43,14 +43,14 @@ header {
   text-align: center;
 }
 
-header section {
+header div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 header h1,
-header h2 {
+#target {
   font-family: Fruktur;
   font-size: 3.5rem;
   font-weight: bold;
@@ -136,11 +136,11 @@ main {
   text-align: center;
 }
 
+/* PROFILE CARD */
 .profile p {
   text-align: justify;
 }
 
-/* PROFILE CARD */
 .profile a {
   color: rgb(149, 125, 91);
   font-weight: bold;
@@ -323,13 +323,12 @@ footer {
     top: 100px;
   }
 
-  header h1 {
+  header h1, #target {
     font-size: 2rem;
   }
 
   #target {
-    font-size: 2rem;
-    width: 120px;
+    width: 100px;
   }
 
   main {
